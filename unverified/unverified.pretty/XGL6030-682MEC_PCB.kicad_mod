@@ -1,0 +1,183 @@
+(footprint "XGL6030-682MEC_PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Coilcraft XGL6030-682MEC; Document 1635-1 revised 2025-06-27")
+	(tags "inductor XGL6030 Coilcraft power shielded 6.8uH")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "27d0497b-b3bf-4174-a67d-2d1daaf9f0e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XGL6030-682MEC_PCB"
+		(at 0 4.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3b9fb70-5023-4957-98ec-135a24b4e539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7839a1b-b7cd-4c73-a543-70183628f2a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8185dd84-c037-4ecc-b0d4-907caa71010d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.10"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18dc0911-a66d-4bc9-9fb0-df9e603ba07a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f9e95c-7771-4f77-ad72-e9fac1487b35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5822c9fa-af26-45db-ac86-249874e27379")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPN" "P-00008"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "d7cec0f3d4ba3046"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/XGL6030-682MEC_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+		(property "Source_Manifest_Hash" "02e160fa44660dc3c6f0036e0564f8ad31bd71fb05a126f9232c754540752b58"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.855 -2.755)
+		(end -2.705 -2.755)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "05481cdb-e9bf-49e1-be44-807ec4445bdf")
+	)
+	(embedded_fonts no)
+
+	(fp_line (start -3.255 -3.505) (end 3.255 -3.505)
+		(stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -3.255 3.505) (end 3.255 3.505)
+		(stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+	(fp_rect (start -3.51 -3.61) (end 3.51 3.61)
+		(stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(fp_rect (start -3.255 -3.355) (end 3.255 3.355)
+		(stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_text user "${REFERENCE}" (at 0 0 0) (layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15))))
+		(pad "1" smd rect (at 2.02 0) (size 1.43 5.5)
+			(layers "F.Cu"))
+		(pad "2" smd rect (at -2.02 0) (size 1.43 5.5)
+			(layers "F.Cu"))
+		(pad "" smd roundrect (at 2.02 0) (size 1.43 5.5)
+			(layers "F.Mask") (roundrect_rratio 0.174825))
+		(pad "" smd roundrect (at -2.02 0) (size 1.43 5.5)
+			(layers "F.Mask") (roundrect_rratio 0.174825))
+		(pad "" smd roundrect (at 2.02 0) (size 1.43 5.5)
+			(layers "F.Paste") (roundrect_rratio 0.174825))
+		(pad "" smd roundrect (at -2.02 0) (size 1.43 5.5)
+			(layers "F.Paste") (roundrect_rratio 0.174825))
+	(fp_circle
+		(center 3.75 -3.25)
+		(end 3.9024 -3.25)
+		(stroke (width 0) (type solid))
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/XGL6030-682MEC_PCB.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

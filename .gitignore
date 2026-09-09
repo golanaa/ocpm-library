@@ -1,0 +1,23 @@
+# Only shared KiCad library assets and their usage guide belong in this repository.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/verified/
+!/unverified/
+/verified/*
+!/verified/verified.kicad_sym
+!/verified/verified.pretty/
+!/verified/verified.3dshapes/
+/verified/verified.pretty/*
+!/verified/verified.pretty/*.kicad_mod
+/verified/verified.3dshapes/*
+!/verified/verified.3dshapes/*.step
+/unverified/*
+!/unverified/unverified.kicad_sym
+!/unverified/unverified.pretty/
+!/unverified/unverified.3dshapes/
+/unverified/unverified.pretty/*
+!/unverified/unverified.pretty/*.kicad_mod
+/unverified/unverified.3dshapes/*
+!/unverified/unverified.3dshapes/*.step
