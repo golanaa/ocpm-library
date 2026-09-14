@@ -1687,4 +1687,92 @@
 		(symbol "GRM21BR71E105KA99L_1_1" (polyline (pts (xy 0 1.27) (xy 0 0.635)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 -1.27) (xy 0 -0.635)) (stroke (width 0) (type default)) (fill (type none)))
 (pin passive line (at 0 5.08 270) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
 (pin passive line (at 0 -5.08 90) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-)))
+))	(symbol "04025A6R8JAT2A" (pin_names hide) (in_bom yes) (on_board yes)
+		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Value" "6.8pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Footprint" "unverified:04025A6R8JAT2A_PCB" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Description" "6.8 pF ±5%, 50 VDC C0G (NP0) MLCC, 0402; -55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Manufacturer 1" "KYOCERA AVX" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Manufacturer Part Number 1" "04025A6R8JAT2A" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "IPN" "P-00048" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "IPN_Class" "Part" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "OCPM_Verified" "No" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Library_Status" "Unverified" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Rev_Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Package" "0402 (1005 Metric)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Dielectric" "C0G (NP0)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Voltage Rating" "50 VDC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Tolerance" "±5%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Temperature Coefficient" "0 ±30 ppm/°C, -55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Operating Temperature" "-55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Part Origin" "OCPM-generated in-house using CadQuery; retained generator generate_cad.py. Not manufacturer-supplied CAD. Source: KYOCERA AVX SurfaceMount.pdf, PDF pp6-8,131. Model 04025A6R8JAT2A_PCB.step uses nominal L/W, maximum 0.56 mm height, ideal rectangular ceramic and simplified 0.25 mm end terminations; no fillets, plating detail or solder. Symbol drawn in-house; footprint from manufacturer reflow lands." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Type" "Capacitor"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Version" "0.1.0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Hash" "1dbe3b1520759e6b"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "44652d7dddf4091f"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "04025A6R8JAT2A_0_1"
+			(polyline (pts (xy 0 2.54) (xy 0 0.635)) (stroke (width 0.1524) (type default)) (fill (type none)))
+			(polyline (pts (xy 0 -2.54) (xy 0 -0.635)) (stroke (width 0.1524) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.905 0.635) (xy 1.905 0.635)) (stroke (width 0.254) (type default)) (fill (type none)))
+			(polyline (pts (xy -1.905 -0.635) (xy 1.905 -0.635)) (stroke (width 0.254) (type default)) (fill (type none))))
+		(symbol "04025A6R8JAT2A_1_1"
+			(pin passive line (at 0 5.08 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 0 -5.08 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))
+		))

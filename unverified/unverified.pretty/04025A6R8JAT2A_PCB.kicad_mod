@@ -1,0 +1,70 @@
+(footprint "04025A6R8JAT2A_PCB" (version 20240108) (generator "ocpm") (layer "F.Cu") (attr smd) (descr "KYOCERA AVX 0402 C0G; manufacturer recommended reflow lands")
+(property "Reference" "REF**" (at 0 -0.9 0) (layer "F.SilkS")  (effects (font (size 0.7 0.7) (thickness 0.1))))
+(property "Value" "04025A6R8JAT2A" (at 0 0.9 0) (layer "F.Fab")  (effects (font (size 0.7 0.7) (thickness 0.1))))
+(property "Creator" "Steve" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.7 0.7) (thickness 0.1))))
+(property "Rev_Creator" "Steve" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.7 0.7) (thickness 0.1))))
+(fp_rect (start -0.5 -0.25) (end 0.5 0.25) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+(fp_rect (start -1 -0.4) (end 1 0.4) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+(fp_text user "${REFERENCE}" (at 0 0 0) (layer "F.Fab") (effects (font (size 0.25 0.25) (thickness 0.05))))
+(pad "1" smd rect (at -0.55 0) (size 0.6 0.5) (layers "F.Cu"))
+(pad "" smd rect (at -0.55 0) (size 0.6 0.5) (layers "F.Mask") (solder_mask_margin 0))
+(pad "" smd rect (at -0.55 0) (size 0.6 0.5) (layers "F.Paste") (solder_paste_margin 0) (solder_paste_margin_ratio 0))
+(pad "2" smd rect (at 0.55 0) (size 0.6 0.5) (layers "F.Cu"))
+(pad "" smd rect (at 0.55 0) (size 0.6 0.5) (layers "F.Mask") (solder_mask_margin 0))
+(pad "" smd rect (at 0.55 0) (size 0.6 0.5) (layers "F.Paste") (solder_paste_margin 0) (solder_paste_margin_ratio 0))
+(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/04025A6R8JAT2A_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))	(property "IPN" "P-00048"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/04025A6R8JAT2A_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "52b0fd786c672b987788424794a8e2612d31bf7dc2f60bc048b47eb505a59722"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "1dbe3b1520759e6b"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
