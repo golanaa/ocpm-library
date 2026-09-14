@@ -1,0 +1,92 @@
+(footprint "CPF0402B237KE1_PCB" (version 20241229) (generator "ocpm") (layer "F.Cu") (attr smd)
+(descr "TE CPF0402 manufacturer nominal recommended lands; local mask/paste 1:1 engineering implementation")
+(property "Reference" "REF**" (at 0 -1.1) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+(property "Value" "CPF0402B237KE1_PCB" (at 0 1.1) (layer "F.Fab") (effects (font (size 0.5 0.5) (thickness 0.075))))
+(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") (effects (font (size 0.2 0.2) (thickness 0.03))))
+(fp_rect (start -0.5 -0.25) (end 0.5 0.25) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+(fp_rect (start -0.9 -0.45) (end 0.9 0.45) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+(pad "1" smd rect (at -0.5 0) (size 0.5 0.6) (layers "F.Cu"))
+(pad "" smd rect (at -0.5 0) (size 0.5 0.6) (layers "F.Mask"))
+(pad "" smd rect (at -0.5 0) (size 0.5 0.6) (layers "F.Paste"))
+(pad "2" smd rect (at 0.5 0) (size 0.5 0.6) (layers "F.Cu"))
+(pad "" smd rect (at 0.5 0) (size 0.5 0.6) (layers "F.Mask"))
+(pad "" smd rect (at 0.5 0) (size 0.5 0.6) (layers "F.Paste"))
+(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/CPF0402B237KE1_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPN" "P-00051"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/CPF0402B237KE1_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "45bd3a5fb94a0260b5fc2c1de28353eca2000dd99ec441416b3270a7a32de4e2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "9cb1be59dcfeba8e"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
