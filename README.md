@@ -11,6 +11,20 @@ Each directory contains a `.kicad_sym` library, a `.pretty` footprint library,
 and a `.3dshapes` model directory. Component fields carry OCPM identifiers,
 revision information, and engineering hashes.
 
+## Component identity
+
+New purchased components represent one exact manufacturer/orderable MPN each,
+including resistors and capacitors. Their fields describe that part's actual
+ratings and applicable conditions. Alternative MPNs are separate components;
+substitution choices belong in the project BOM, not in a library substitute list.
+
+Existing manufacturer-independent `Spec` components are retained for historical
+project compatibility while exact-MPN replacements are reviewed. Do not use those
+legacy electrical Specs for new designs or assume their review approves any
+candidate MPN. Replacements have independent identities and review status.
+Custom mechanical geometry and bare-board features are not purchased electrical
+parts and retain their non-orderable workflows.
+
 ## Use with Sourcerer
 
 Keep the two checkouts beside one another:
