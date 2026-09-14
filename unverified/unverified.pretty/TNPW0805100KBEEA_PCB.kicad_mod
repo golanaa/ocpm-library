@@ -1,0 +1,95 @@
+(footprint "TNPW0805100KBEEA_PCB" (version 20240108) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Vishay TNPW0805; manufacturer IPC-7351 reflow lands; unique exact-MPN footprint")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value "TNPW0805100KBEEA" (at 0 1.5) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+  (fp_rect (start -1 -0.625) (end 1 0.625) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+  (fp_rect (start -1.55 -0.88) (end 1.55 0.88) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+  (fp_line (start -0.35 -0.9) (end 0.35 -0.9) (stroke (width 0.12) (type default)) (layer "F.SilkS"))
+  (fp_line (start -0.35 0.9) (end 0.35 0.9) (stroke (width 0.12) (type default)) (layer "F.SilkS"))
+  (pad "1" smd rect (at -0.95 0) (size 0.9 1.45) (layers "F.Cu"))
+  (pad "" smd rect (at -0.95 0) (size 1.0 1.55) (layers "F.Mask"))
+  (pad "" smd rect (at -0.95 0) (size 0.9 1.45) (layers "F.Paste"))
+  (pad "2" smd rect (at 0.95 0) (size 0.9 1.45) (layers "F.Cu"))
+  (pad "" smd rect (at 0.95 0) (size 1.0 1.55) (layers "F.Mask"))
+  (pad "" smd rect (at 0.95 0) (size 0.9 1.45) (layers "F.Paste"))
+  (model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/TNPW0805100KBEEA_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPN" "P-00050"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/TNPW0805100KBEEA_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "202322162451867eda20beab22b36e69660091fcc32a1153104f0fe5c770f852"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "eed11c0ddbe2c704"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
