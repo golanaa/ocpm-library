@@ -1614,7 +1614,7 @@
 		(embedded_fonts no)
 	)
 
-	(symbol "GRM21BR71E105KA99L" (pin_names hide) (in_bom yes) (on_board yes)
+	(symbol "GRM21BR71E105KA99L" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "C" (at 5.08 1.27 0) (effects (font (size 1.27 1.27))))
 		(property "Value" "1uF" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "verified:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "84ccd79a0cc254dd"
+		(property "Sym_Hash" "8ce5a42c54b14f8c"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1698,7 +1698,7 @@
 		(symbol "GRM21BR71E105KA99L_1_1" (polyline (pts (xy 0 1.27) (xy 0 0.635)) (stroke (width 0) (type default)) (fill (type none))) (polyline (pts (xy 0 -1.27) (xy 0 -0.635)) (stroke (width 0) (type default)) (fill (type none)))
 (pin passive line (at 0 5.08 270) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
 (pin passive line (at 0 -5.08 90) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-))	(symbol "04025A6R8JAT2A" (pin_names hide) (in_bom yes) (on_board yes)
+))	(symbol "04025A6R8JAT2A" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Value" "6.8pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
@@ -1767,7 +1767,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "4f04b99bffdae7f3"
+		(property "Sym_Hash" "a531928eafa0eb00"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1797,7 +1797,7 @@
 		(symbol "04025A6R8JAT2A_1_1"
 			(pin passive line (at 0 5.08 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
 			(pin passive line (at 0 -5.08 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))
-		)	(symbol "TNPW0805402KBEEA" (pin_names hide) (in_bom yes) (on_board yes)
+		)	(symbol "TNPW0805402KBEEA" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "R" (at 0 2.54 0) (effects (font (size 1.27 1.27))))
 		(property "Value" "402k" (at 0 -2.54 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "verified:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1863,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "bf3f37afca0b6e98"
+		(property "Sym_Hash" "2571a4ec0d372c50"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3013,7 +3013,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CRCW20102K20FKEFHP"
+	(symbol "CRCW20102K20FKEFHP" (pin_numbers hide)
 		(pin_names
 			(hide yes)
 		)
@@ -3308,7 +3308,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "eb29359c57abae96"
+		(property "Sym_Hash" "e30e29b677392a56"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3427,7 +3427,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GRM21BR71A225KA01L" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+	(symbol "GRM21BR71A225KA01L" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
 		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Value" "2.2 uF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0805_2012Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
@@ -3453,7 +3453,7 @@
 		(property "Temperature" "-55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Rating Conditions" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (p3)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "DC Bias" "High dielectric constant capacitance changes with DC bias and AC amplitude. Nominal 2.2 uF and ±10% are test-condition ratings, not guaranteed effective capacitance at 10 V. No exact-part quantitative DC-bias curve established from retained source; application bias/temperature/aging assessment required." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Sym_Hash" "68a86dad7ebd9658"
+		(property "Sym_Hash" "9e7f1adbac2b4082"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5078,7 +5078,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RC0402FR-0724K9L"
+	(symbol "RC0402FR-0724K9L" (pin_numbers hide)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -5154,7 +5154,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "02aaaeb38ae2f18e"
+		(property "Sym_Hash" "2519c06e629a0f1f"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7173,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)))))))	(symbol "RC0402JR-070RL" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+							(size 1.27 1.27)))))))	(symbol "RC0402JR-070RL" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
  (property "Reference" "R" (at 2.54 1.27 0) (effects (font (size 1.27 1.27))))
  (property "Value" "0R" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27))))
  (property "Footprint" "verified:R_0402_1005Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -7198,7 +7198,7 @@
  (property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Sym_Hash" "3f5d3b13b0e7384b" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Sym_Hash" "fb84cd40a2c5ea92" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Sym_Version" "0.1.0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "FP_Version" "0.1.1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "FP_Hash" "cca674d32d743c69" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
