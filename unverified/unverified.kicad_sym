@@ -1619,10 +1619,10 @@
 		(property "Value" "1uF" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "verified:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Description" "1uF +/-10%, DC25V X7R MLCC, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Description" "CAP, 1 µF, 0805, ±10%, X7R, 25 V DC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer 1" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer Part Number 1" "GRM21BR71E105KA99L" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Package" "0805 (2012 Metric)" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Package" "0805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Type" "SMT" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Tolerance" "+/-10%" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -1672,7 +1672,18 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "73aed5591588235e"
+		(property "Sym_Hash" "84ccd79a0cc254dd"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1692,7 +1703,7 @@
 		(property "Value" "6.8pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Description" "6.8 pF ±5%, 50 VDC C0G (NP0) MLCC, 0402; -55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Description" "CAP, 6.8 pF, 0402, ±5%, C0G/NP0, 50 V DC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer 1" "KYOCERA AVX" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer Part Number 1" "04025A6R8JAT2A" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "IPN" "P-00048" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
@@ -1701,7 +1712,7 @@
 		(property "Library_Status" "Unverified" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Rev_Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Package" "0402 (1005 Metric)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Package" "0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Dielectric" "C0G (NP0)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Voltage Rating" "50 VDC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Tolerance" "±5%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
@@ -1756,7 +1767,18 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "f4d9dfbeb414589a"
+		(property "Sym_Hash" "4f04b99bffdae7f3"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1780,7 +1802,7 @@
 		(property "Value" "402k" (at 0 -2.54 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "verified:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Description" "402 kohm precision thin-film resistor, 0.1%, 25 ppm/K, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "RES, 402 kΩ, 0805, ±0.1%, thin film, 140 mW (70 °C ambient, general mode; film ≤125 °C; derating applies), TCR ±25 ppm/°C, 150 V ceiling (also power-limited), additional ratings: 220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Manufacturer 1" "Vishay Dale" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Manufacturer Part Number 1" "TNPW0805402KBEEA" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "IPN" "P-00049" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1789,12 +1811,12 @@
 		(property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0805_2012Metric footprint and generic model under the standard passive-package exception. Vishay TNPW 0805 nominal body 2.00 x 1.25 x 0.45 mm; two nonpolar terminals. Shared IPC-style lands 1.025 x 1.40 mm at X +/-0.9125 mm, gap 0.80 mm. Vishay 28950 recommends 0.90 x 1.45 mm lands with 1.00 mm gap. Existing reviewed generic 0805 package selected; dimensional differences are deliberate generic-package reuse, not a claim of exact manufacturer-recommended geometry. Generic model 2.00 x 1.20 x 0.45 mm: width is 0.05 mm below exact nominal body. Approximate visualization only; use 1.25 mm nominal plus datasheet tolerances for mechanical clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Package" "0805 (2012 Metric)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package" "0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Tolerance" "+/-0.1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Temperature Coefficient" "+/-25 ppm/K" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Temperature Coefficient" "±25 ppm/°C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Type" "Thin film resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Maximum Working Voltage" "150 V AC RMS/DC; also limited by sqrt(P*R)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Power Rating" "P70 ambient: 0.140 W / 0.220 W / 0.260 W for 125 / 155 / 175 C maximum film modes; terminal-temperature rating 0.75 W at 105 C, distinct thermal basis" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Maximum Working Voltage" "150 V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Power Rating" "140 mW" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Rating Conditions" "Derate ambient power linearly above 70 C to zero at selected maximum film temperature. Terminal rating requires thermal design; not 0.75 W at 70 C ambient. Working-voltage limit at 402 kohm gives approximately 56 mW at 150 V. See datasheet curves and mode-specific stability limits." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Legacy Comparison" "Historical 402 kohm, 0.1%, 25 ppm/C and 0805 match. 150 V rating exceeds historical 100 V. P70 modes exceed 125 mW thermally, but 125 mW at 402 kohm would require 224 V and is not permissible under 150 V limit. No inherited qualification or substitute approval." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Library_Status" "Unverified"
@@ -1841,7 +1863,84 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "d0fae235387c7ba6"
+		(property "Sym_Hash" "9b76c7a3cfe0a439"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "P70 ambient: 0.140 W / 0.220 W / 0.260 W for 125 / 155 / 175 C maximum film modes; terminal-temperature rating 0.75 W at 105 C, distinct thermal basis"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient, general mode; film ≤125 °C; derating applies"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient Detail" "+/-25 ppm/K"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "150 V AC RMS/DC; also limited by sqrt(P*R)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Additional Power Ratings" "220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1910,7 +2009,7 @@
 				)
 			)
 		)
-		(property "Description" "100 kohm precision thin-film resistor, +/-0.1%, +/-25 ppm/K, 0805; exact EA order variant"
+		(property "Description" "RES, 100 kΩ, 0805, ±0.1%, thin film, 140 mW (70 °C ambient, general mode; film ≤125 °C; derating applies), TCR ±25 ppm/°C, 150 V ceiling (also power-limited), additional ratings: 220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +2174,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "P70: 0.140 W general / 0.220 W power / 0.260 W advanced operation; ambient 70 degC"
+		(property "Power Rating" "140 mW"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2097,7 +2196,7 @@
 				)
 			)
 		)
-		(property "Power Rating Conditions" "Permissible film temperatures: general 125 degC, power 155 degC, advanced 175 degC. P70 is not a terminal-temperature rating. Apply manufacturer derating curves and safeguard assembled thermal resistance; see Vishay 28758 pages 1, 2 and derating diagrams."
+		(property "Power Rating Conditions" "70 °C ambient, general mode; film ≤125 °C; derating applies"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2229,7 @@
 				)
 			)
 		)
-		(property "Package" "0805 (2012 Metric); nominal 2.00 x 1.25 x 0.45 mm"
+		(property "Package" "0805"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2306,73 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "914108453e1d8c29"
+		(property "Sym_Hash" "12ae8d48a5fc53b3"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric); nominal 2.00 x 1.25 x 0.45 mm"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "P70: 0.140 W general / 0.220 W power / 0.260 W advanced operation; ambient 70 degC"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions Detail" "Permissible film temperatures: general 125 degC, power 155 degC, advanced 175 degC. P70 is not a terminal-temperature rating. Apply manufacturer derating curves and safeguard assembled thermal resistance; see Vishay 28758 pages 1, 2 and derating diagrams."
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage" "150 V"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Additional Power Ratings" "220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2276,18 +2441,18 @@
 (property "Value" "237k" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 (property "Footprint" "verified:R_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Description" "237 kohm 0.1% 25 ppm/C precision thin-film resistor, 0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Manufacturer 1" "TE Connectivity / Holsworthy" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Manufacturer Part Number 1" "CPF0402B237KE1" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Package" "0402 (1005 Metric)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Package" "0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Type" "SMT" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Tolerance" "±0.1%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Temperature Coefficient" "±25 ppm/°C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Power Rating" "0.063 W at 70 °C ambient; derate to zero at 155 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Maximum Working Voltage" "50 V; also limited by sqrt(P_derated × R)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Power Rating" "63 mW" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Maximum Working Voltage" "50 V" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Maximum Overload Voltage" "100 V" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Operating Temperature" "-55 to +155 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Power Rating Conditions" "70 C ambient; manufacturer ambient derating applies; not a terminal-temperature rating" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Overload Test" "JIS-C-5201-1 4.13; lower of 2.5 times RCWV and maximum overload voltage, 5 seconds; resistance change limit +/-0.2% for tolerance >0.05%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "TCR Test" "MIL-STD-202 Method 304, +25/-55/+25/+125/+25 C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Migration Limits" "237 kohm, 0.1%, 25 ppm/C and 50 V match stated historical values. Actual ordinary rating is 63 mW at 70 C ambient, not an unconditional 62.5 mW. Package is 0402. No project pulse or 60 V survival qualification, substitute approval, or legacy verification is inherited." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -2341,7 +2506,62 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "0ac6470319772ba8"
+		(property "Sym_Hash" "ca21a5c9cda2f241"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "0.063 W at 70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions Detail" "70 C ambient; manufacturer ambient derating applies; not a terminal-temperature rating"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V; also limited by sqrt(P_derated × R)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2410,7 +2630,7 @@
 				)
 			)
 		)
-		(property "Description" "12 kohm precision thin-film resistor, 0.1%, 25 ppm/K, 0402"
+		(property "Description" "RES, 12 kΩ, 0402, ±0.1%, thin film, 63 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2707,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2531,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "0.063 W at 70°C ambient; linearly derated to zero at 155°C ambient"
+		(property "Power Rating" "63 mW"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2542,7 +2762,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "min(sqrt(P_allowable * 12000 ohm), 50 V); 27.495 V at 0.063 W"
+		(property "Maximum Working Voltage" "50 V"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2674,7 +2894,62 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "965c2a4d22949e60"
+		(property "Sym_Hash" "e46ff0f3b9875b37"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "0.063 W at 70°C ambient; linearly derated to zero at 155°C ambient"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "min(sqrt(P_allowable * 12000 ohm), 50 V); 27.495 V at 0.063 W"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2791,7 +3066,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2 kohm 1% 100 ppm/K high-power thick-film resistor, 2010"
+		(property "Description" "RES, 2.2 kΩ, 2010, ±1%, thick film, 1 W (70 °C ambient; film ≤155 °C; derate to zero at 155 °C), TCR ±100 ppm/°C, 400 V ceiling (also power-limited), additional ratings: 1.75 W at 105 °C terminal; film ≤155 °C; terminal derating to zero at 155 °C; PCB thermal design required"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +3143,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "1.0 W P70 (ambient 70 °C); 1.75 W at terminal 105 °C"
+		(property "Power Rating" "1 W"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,7 +3154,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "400 V ACRMS/DC ceiling; additionally limited by sqrt(P*R), 46.9 V at 1 W and 2.2 kohm"
+		(property "Maximum Working Voltage" "400 V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +3308,62 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "ab9bc03989918a54"
+		(property "Sym_Hash" "bdbf84b09ad9ba80"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "1.0 W P70 (ambient 70 °C); 1.75 W at terminal 105 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; film ≤155 °C; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "400 V ACRMS/DC ceiling; additionally limited by sqrt(P*R), 46.9 V at 1 W and 2.2 kohm"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Additional Power Ratings" "1.75 W at 105 °C terminal; film ≤155 °C; terminal derating to zero at 155 °C; PCB thermal design required"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3102,7 +3432,7 @@
 		(property "Value" "2.2 uF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0805_2012Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71A225KA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20260730170937" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Description" "2.2 uF ±10%, 10 V DC, X7R MLCC, 0805; Murata GRM21BR71A225KA01L" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "Description" "CAP, 2.2 µF, 0805, ±10%, X7R, 10 V DC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "IPN" "P-00054" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "IPN_Class" "Part" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Library_Status" "Unverified" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
@@ -3114,7 +3444,7 @@
 		(property "FP_Hash" "7e8a52f60f9c7f97" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Manufacturer 1" "Murata" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Manufacturer Part Number 1" "GRM21BR71A225KA01L" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Package" "0805 (2012 Metric), 2.0 x 1.25 x 1.25 mm" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+		(property "Package" "0805" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Type" "C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Capacitance" "2.2 uF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Tolerance" "±10%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
@@ -3123,7 +3453,29 @@
 		(property "Temperature" "-55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "Rating Conditions" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (p3)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
 		(property "DC Bias" "High dielectric constant capacitance changes with DC bias and AC amplitude. Nominal 2.2 uF and ±10% are test-condition ratings, not guaranteed effective capacitance at 10 V. No exact-part quantitative DC-bias curve established from retained source; application bias/temperature/aging assessment required." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Sym_Hash" "480807a26b0de1b0"
+		(property "Sym_Hash" "68a86dad7ebd9658"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric), 2.0 x 1.25 x 1.25 mm"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10 V DC"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3145,12 +3497,12 @@
 		(property "Value" "100nF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR72A104KA37-01A.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Description" "Murata 100 nF ceramic capacitor, 100 VDC, +/-10%, X7R, 0805; capacitance subject to DC bias and aging" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Description" "CAP, 100 nF, 0805, ±10%, X7R, 100 V DC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "IPN" "P-00055" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "IPN_Class" "Part" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer 1" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer Part Number 1" "GCM21BR72A104KA37L" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Package" "0805 (2012 Metric)" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Package" "0805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Type" "SMT" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Voltage Rating" "100 VDC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -3200,7 +3552,18 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2e8df5bd559d35b3"
+		(property "Sym_Hash" "7c6378db60636c91"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3272,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Description" "Yageo RC0402FR-071RL, 1 ohm +/-1% thick-film resistor; 62.5 mW at 70C ambient"
+		(property "Description" "RES, 1 Ω, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±200 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3360,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" "+/-200 ppm/degC (1 ohm <= R <= 10 ohm)"
+		(property "Temperature Coefficient" "±200 ppm/°C"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3371,7 +3734,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "62.5 mW at 70 degC ambient; linear derating to 0 W at 155 degC"
+		(property "Power Rating" "62.5 mW"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3382,7 +3745,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "50 V ceiling; limited by sqrt(P*R): 0.25 V at 1 ohm, 62.5 mW"
+		(property "Maximum Working Voltage" "50 V"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3514,7 +3877,73 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "7463987cf2dfbb99"
+		(property "Sym_Hash" "343fbf712c98b656"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "62.5 mW at 70 degC ambient; linear derating to 0 W at 155 degC"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V ceiling; limited by sqrt(P*R): 0.25 V at 1 ohm, 62.5 mW"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient Detail" "+/-200 ppm/degC (1 ohm <= R <= 10 ohm)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3681,7 +4110,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kohm 1% thick-film resistor; 62.5 mW at 70 C ambient, derated to zero at 155 C; +/-100 ppm/C; 50 V ceiling, 25 V power-limited at 10 kohm."
+		(property "Description" "RES, 10 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +4165,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3780,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "62.5 mW at 70°C ambient"
+		(property "Power Rating" "62.5 mW"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3813,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "50 V ceiling; actual rated voltage min(sqrt(P*R),50 V) = 25 V at 62.5 mW / 10 kohm"
+		(property "Maximum Working Voltage" "50 V"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3956,7 +4385,62 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "0607d857cd2bf9aa"
+		(property "Sym_Hash" "221877e59e0ca28b"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "62.5 mW at 70°C ambient"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V ceiling; actual rated voltage min(sqrt(P*R),50 V) = 25 V at 62.5 mW / 10 kohm"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4123,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Description" "100 kOhm ±1% thick-film resistor, 0402; 62.5 mW at 70 °C ambient, derated to zero at 155 °C; ±100 ppm/°C, 50 V max working."
+		(property "Description" "RES, 100 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4673,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "0.0625 W"
+		(property "Power Rating" "62.5 mW"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Power Rating Conditions" "1/16 W at 70 °C ambient; linear derating to 0 W at 155 °C ambient. Not a terminal-temperature rating."
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Resistor Technology" "Thick film"
+		(property "Resistor Technology" "thick film"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4783,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "50 V; continuous voltage limited to min(sqrt(P_derated * R), 50 V)"
+		(property "Maximum Working Voltage" "50 V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +4959,62 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "b81184666d994fad"
+		(property "Sym_Hash" "89df2da560050aca"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology Detail" "Thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "0.0625 W"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions Detail" "1/16 W at 70 °C ambient; linear derating to 0 W at 155 °C ambient. Not a terminal-temperature rating."
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V; continuous voltage limited to min(sqrt(P_derated * R), 50 V)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4593,7 +5132,7 @@
 				)
 			)
 		)
-		(property "Description" "24.9 kohm +/-1% thick-film resistor, 62.5 mW at 70 C ambient, +/-100 ppm/C, RC0402"
+		(property "Description" "RES, 24.9 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 2.54 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +5154,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "17622be6dc656f2b"
+		(property "Sym_Hash" "076c5b054c36f5c3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +5187,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric), Yageo RC0402"
+		(property "Package" "0402"
 			(at 2.54 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,6 +5374,61 @@
 				)
 			)
 		)
+		(property "Package Detail" "0402 (1005 Metric), Yageo RC0402"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage" "50 V"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "RC0402FR-0724K9L_0_1"
 			(rectangle
 				(start -1.016 2.54)
@@ -4893,12 +5487,12 @@
 		(property "Value" "220nF" (at 1.27 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "verified:C_0603_1608Metric" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C224KA01-01A.pdf" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Description" "Murata 220 nF ±10%, 16 VDC X7R MLCC, 1608M (0603), D paper tape." (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+		(property "Description" "CAP, 220 nF, 0603, ±10%, X7R, 16 V DC" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Manufacturer 1" "Murata" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Manufacturer Part Number 1" "GRM188R71C224KA01D" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "IPN" "P-00060" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "IPN_Class" "Part" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "1608M (0603)" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+		(property "Package" "0603" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Type" "SMT" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Dielectric" "X7R" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Voltage Rating" "16 VDC" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -4913,11 +5507,22 @@
 		(property "Rev_Creator" "Steve" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "OCPM_Verified" "No" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Sym_Version" "0.1.0" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Sym_Hash" "f8193831d068ae19" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+		(property "Sym_Hash" "080e3cbc439e8b90" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "FP_Version" "0.1.1" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "FP_Hash" "dece991b2937f49e" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Part Origin" "Exact Murata source; reviewed managed generic Capacitor_SMD:C_0603_1608Metric package retained" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 		(property "Library_Status" "Unverified" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+		(property "Package Detail" "1608M (0603)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "GRM188R71C224KA01D_0_1"
 (polyline (pts (xy -1.016 0.508) (xy 1.016 0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
 (polyline (pts (xy -1.016 -0.508) (xy 1.016 -0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
@@ -4932,12 +5537,12 @@
   (property "Value" "100 nF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
   (property "Footprint" "verified:C_0603_1608Metric" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Description" "Murata 100 nF +/-10%, 25 Vdc X7R MLCC, 0603 (1608 Metric), D paper-tape reel; exact Unverified Part." (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+  (property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "IPN" "P-00061" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "IPN_Class" "Part" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Manufacturer 1" "Murata" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Package" "0603 (1608 Metric)" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+  (property "Package" "0603" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Type" "SMD" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Dielectric" "X7R" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "Voltage Rating" "25 Vdc" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -4951,7 +5556,18 @@
   (property "Sym_Version" "0.1.0" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "FP_Version" "0.1.1" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
   (property "FP_Hash" "dece991b2937f49e" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Sym_Hash" "737e7cc7726fcec1"
+		(property "Sym_Hash" "ec2dce72ad44c4c2"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0603 (1608 Metric)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5025,7 +5641,7 @@
 				)
 			)
 		)
-		(property "Description" "Murata 2.2uF +/-10%, 100V DC, X7R MLCC, 1210; nominal capacitance subject to DC bias."
+		(property "Description" "CAP, 2.2 µF, 1210, ±10%, X7R, 100 V DC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Package" "1210 (3225 Metric), Murata GRM32E; 3.2 +/-0.3 x 2.5 +/-0.2 x 2.5 +/-0.2 mm"
+		(property "Package" "1210"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +5949,18 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "bd31ded2369573b3"
+		(property "Sym_Hash" "1f3c4230ebe0a457"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "1210 (3225 Metric), Murata GRM32E; 3.2 +/-0.3 x 2.5 +/-0.2 x 2.5 +/-0.2 mm"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5466,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Description" "22uF, +/-10%, 25VDC, X7R, 1210 MLCC; capacitance test: room temperature, 120Hz, 0.5Vrms; DC bias reduces effective capacitance."
+		(property "Description" "CAP, 22 µF, 1210, ±10%, X7R, 25 V DC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,7 +6148,7 @@
 				)
 			)
 		)
-		(property "Package" "1210 (3225 Metric)"
+		(property "Package" "1210"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +6357,18 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "802267a02db96c26"
+		(property "Sym_Hash" "4d3a492291abff9a"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "1210 (3225 Metric)"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5861,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Description" "402 kohm +/-1% precision thick-film resistor, +/-50 ppm/C, 0.063 W at 70 C, 50 V max, 0402"
+		(property "Description" "RES, 402 kΩ, 0402, ±1%, precision thick film, 63 mW (70 °C; temperature basis and derating not specified in retained exact-part sheet), TCR ±50 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5927,7 +6565,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" "+/-50 ppm/C"
+		(property "Temperature Coefficient" "±50 ppm/°C"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5938,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Power Rating" "0.063 W at 70 C"
+		(property "Power Rating" "63 mW"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5949,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Power Rating Conditions" "70 C; ambient/terminal reference and full derating curve not stated in exact-MPN specification"
+		(property "Power Rating Conditions" "70 °C; temperature basis and derating not specified in retained exact-part sheet"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5960,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Maximum Working Voltage" "50 V; also limited by sqrt(P_allowed * R)"
+		(property "Maximum Working Voltage" "50 V"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5982,7 +6620,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6136,7 +6774,73 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "21393cab6a087b44"
+		(property "Sym_Hash" "fe5102ebbb876242"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "precision thick film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "0.063 W at 70 C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions Detail" "70 C; ambient/terminal reference and full derating curve not stated in exact-MPN specification"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V; also limited by sqrt(P_allowed * R)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient Detail" "+/-50 ppm/C"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6283,7 +6987,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Description" "44.2 kOhm precision thin-film resistor, +/-0.1%, +/-25 ppm/degC"
+		(property "Description" "RES, 44.2 kΩ, 0402, ±0.1%, thin film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -6298,7 +7002,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Package" "0402 (1005 Metric)"
+		(property "Package" "0402"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -6313,7 +7017,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Power Rating" "62.5 mW at 70°C ambient"
+		(property "Power Rating" "62.5 mW"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -6383,7 +7087,51 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Sym_Hash" "19d5ec1c3f1c2128"
+		(property "Sym_Hash" "21598d36d48106ff"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "62.5 mW at 70°C ambient"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6430,16 +7178,16 @@
  (property "Value" "0R" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27))))
  (property "Footprint" "verified:R_0402_1005Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Description" "Yageo RC0402 zero-ohm jumper; resistance <50 mOhm; 1 A rated, 2 A maximum; ambient derating above 70 C." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated (70 °C ambient; derating above 70 °C; see thermal limits), 2 A maximum (not continuous rating)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Manufacturer 1" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Manufacturer Part Number 1" "RC0402JR-070RL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Package" "0402 (1005 metric)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Package" "0402" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Type" "SMT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Temperature Coefficient" "Not applicable (zero-ohm jumper)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Resistance Limit" "<50 mOhm initial" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Rated Current" "1 A; apply ambient temperature derating above 70 C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Maximum Current" "2 A maximum; not the continuous rated current" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Rated Current" "1 A" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Maximum Current" "2 A" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -6450,11 +7198,66 @@
  (property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Sym_Hash" "def6e44e566af184" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Sym_Hash" "eaab8e360f5fe93e" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Sym_Version" "0.1.0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "FP_Version" "0.1.1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "FP_Hash" "cca674d32d743c69" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
  (property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Package Detail" "0402 (1005 metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Resistance" "<50 mΩ"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Current Detail" "1 A; apply ambient temperature derating above 70 C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Current Detail" "2 A maximum; not the continuous rated current"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating Conditions" "70 °C ambient; derating above 70 °C; see thermal limits"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
  (symbol "RC0402JR-070RL_0_1" (rectangle (start -1.016 2.54) (end 1.016 -2.54) (stroke (width 0.254) (type default)) (fill (type none))))
  (symbol "RC0402JR-070RL_1_1"
  (pin passive line (at 0 5.08 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
