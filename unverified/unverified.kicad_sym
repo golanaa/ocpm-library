@@ -1617,7 +1617,7 @@
 	(symbol "GRM21BR71E105KA99L" (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "C" (at 5.08 1.27 0) (effects (font (size 1.27 1.27))))
 		(property "Value" "1uF" (at 5.08 -1.27 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "unverified:GRM21BR71E105KA99L_PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Footprint" "verified:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Description" "1uF +/-10%, DC25V X7R MLCC, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer 1" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -1632,7 +1632,7 @@
 		(property "Temperature Characteristic" "+/-15% relative to 25 C over -55 to +125 C; no bias" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "DC Bias Limitation" "Effective capacitance decreases with DC bias; exact bias curve not provided by this reference. 1uF is not guaranteed at application DC voltage. AC peak plus DC must remain within rated voltage." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Legacy Comparison" "Nominal 1uF,25V,X7R,+/-10%,0805 agree with legacy context; no controller qualification, effective-capacitance guarantee, or substitute approval inherited." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Part Origin" "Manufacturer reference specification GRM21BR71E105KA99-01, Mar.3,2016 pp.1,2,26. Symbol OCPM nonpolar capacitor. Footprint OCPM manufacturer-derived midpoint reflow lands. Model OCPM-generated in-house using CadQuery; retained generator hardware/libs/generators/GRM21BR71E105KA99L.py; not manufacturer-supplied CAD. Approximate rectangular nominal 2.0 x 1.25 x 1.25 mm installed body, square edges, inferred 0.4 mm end termination bands, no internal electrodes, fillets or solder; z=0 seating plane. No authoritative STEP available in supplied reference." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0805_2012Metric footprint and generic model under the standard passive-package exception. Murata GRM21B nominal body 2.00 x 1.25 x 1.25 mm; unpolarized two end terminals. Retained IPC-style lands are 1.00 x 1.45 mm at X +/-0.95 mm (0.90 mm gap). Murata p26 recommends 0.6-0.8 x 1.2-1.4 mm lands with 1.2 mm gap. The shared footprint uses wider lands with the same 1.90 mm nominal pitch as the manufacturer-range midpoint. Selected as the existing reviewed generic 0805 package, not represented as an exact copy of Murata recommended geometry; assembly choice remains visible for exact-part review. Existing generic model bounding box 2.00 x 1.25 x 1.25 mm agrees with nominal body; idealized terminals and no internal construction. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "IPN" "P-00047" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "IPN_Class" "Part" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 		(property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "FP_Version" "0.1.0"
+		(property "FP_Version" "0.1.1"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1661,7 +1661,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "a0aae187958c4c3e"
+		(property "FP_Hash" "7e8a52f60f9c7f97"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "62b4804a4da1f4c6"
+		(property "Sym_Hash" "73aed5591588235e"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1690,7 +1690,7 @@
 ))	(symbol "04025A6R8JAT2A" (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Value" "6.8pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Footprint" "unverified:04025A6R8JAT2A_PCB" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Footprint" "verified:C_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Description" "6.8 pF ±5%, 50 VDC C0G (NP0) MLCC, 0402; -55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Manufacturer 1" "KYOCERA AVX" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
@@ -1710,7 +1710,7 @@
 		(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Part Origin" "OCPM-generated in-house using CadQuery; retained generator generate_cad.py. Not manufacturer-supplied CAD. Source: KYOCERA AVX SurfaceMount.pdf, PDF pp6-8,131. Model 04025A6R8JAT2A_PCB.step uses nominal L/W, maximum 0.56 mm height, ideal rectangular ceramic and simplified 0.25 mm end terminations; no fillets, plating detail or solder. Symbol drawn in-house; footprint from manufacturer reflow lands." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0402_1005Metric footprint and generic model under the standard passive-package exception. KYOCERA AVX standard 0402 nominal 1.00 x 0.50 mm body, maximum height 0.56 mm; unpolarized end terminals. Retained IPC-style lands are 0.56 x 0.62 mm at X +/-0.48 mm, gap 0.40 mm. AVX mounting guide recommends 0.60 x 0.50 mm lands, gap 0.50 mm, overall 1.70 mm. Shared 0402 lands span 1.52 mm and are wider transversely. This is the existing reviewed generic package selection, not claimed identical to AVX recommended lands; exact-part assembly review remains required. Generic model is 1.00 x 0.50 x 0.50 mm. It is a nominal visualization, NOT the 0.56 mm maximum-height clearance envelope; use the exact datasheet for height clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Type" "Capacitor"
 			(at 0 0 0)
@@ -1745,7 +1745,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "1dbe3b1520759e6b"
+		(property "FP_Hash" "83416f012c08f93a"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1756,7 +1756,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "44652d7dddf4091f"
+		(property "Sym_Hash" "f4d9dfbeb414589a"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1778,7 +1778,7 @@
 		)	(symbol "TNPW0805402KBEEA" (pin_names hide) (in_bom yes) (on_board yes)
 		(property "Reference" "R" (at 0 2.54 0) (effects (font (size 1.27 1.27))))
 		(property "Value" "402k" (at 0 -2.54 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "unverified:TNPW0805402KBEEA_PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Footprint" "verified:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Description" "402 kohm precision thin-film resistor, 0.1%, 25 ppm/K, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Manufacturer 1" "Vishay Dale" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1788,7 +1788,7 @@
 		(property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Part Origin" "OCPM-generated in-house using CadQuery; retained generator build_candidate.py; not manufacturer-supplied CAD. Nominal rectangular body and end terminations from Vishay 28758 p15; simplified sharp corners, inferred termination wrap/thickness and omitted coating, markings and internal films. Footprint constructed from Vishay 28950 p1 IPC-7351 reflow 0805 lands." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0805_2012Metric footprint and generic model under the standard passive-package exception. Vishay TNPW 0805 nominal body 2.00 x 1.25 x 0.45 mm; two nonpolar terminals. Shared IPC-style lands 1.025 x 1.40 mm at X +/-0.9125 mm, gap 0.80 mm. Vishay 28950 recommends 0.90 x 1.45 mm lands with 1.00 mm gap. Existing reviewed generic 0805 package selected; dimensional differences are deliberate generic-package reuse, not a claim of exact manufacturer-recommended geometry. Generic model 2.00 x 1.20 x 0.45 mm: width is 0.05 mm below exact nominal body. Approximate visualization only; use 1.25 mm nominal plus datasheet tolerances for mechanical clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Package" "0805 (2012 Metric)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Tolerance" "+/-0.1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Temperature Coefficient" "+/-25 ppm/K" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1830,7 +1830,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "f23b9c09512163d7"
+		(property "FP_Hash" "8ff73c6c6038c971"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1841,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "be23d29ce65017ff"
+		(property "Sym_Hash" "d0fae235387c7ba6"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1888,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "unverified:TNPW0805100KBEEA_PCB"
+		(property "Footprint" "verified:R_0805_2012Metric"
 			(at -1.778 0 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +2031,7 @@
 				)
 			)
 		)
-		(property "Part Origin" "Symbol adapted from installed KiCad Device:R. Unique footprint derived from Vishay 28950 page 1 IPC-7351 reflow 0805 recommendation and 28758 page 15 package dimensions. STEP: OCPM-generated in-house using CadQuery; retained generator build_candidate.py; not manufacturer-supplied CAD. Model is only a nominal 2.00 x 1.25 x 0.45 mm installed-body bounding prism. Termination profiles, coating, internal construction, edge rounding, markings and manufacturing tolerances are not modeled; no material or mass simulation."
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0805_2012Metric footprint and generic model under the standard passive-package exception. Vishay TNPW 0805 nominal body 2.00 x 1.25 x 0.45 mm; two nonpolar terminals. Shared IPC-style lands 1.025 x 1.40 mm at X +/-0.9125 mm, gap 0.80 mm. Vishay 28950 recommends 0.90 x 1.45 mm lands with 1.00 mm gap. Existing reviewed generic 0805 package selected; dimensional differences remain visible for exact-part assembly review. Generic model 2.00 x 1.20 x 0.45 mm has a 0.05 mm nominal width difference. It is not an exact manufacturing/clearance model; use the exact body and tolerances in the retained datasheet. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +2196,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "eed11c0ddbe2c704"
+		(property "FP_Hash" "8ff73c6c6038c971"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "b26aabf65070971e"
+		(property "Sym_Hash" "914108453e1d8c29"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2274,7 +2274,7 @@
 	(symbol "CPF0402B237KE1" (pin_names hide) (pin_numbers hide) (in_bom yes) (on_board yes)
 (property "Reference" "R" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 (property "Value" "237k" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-(property "Footprint" "unverified:CPF0402B237KE1_PCB" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Footprint" "verified:R_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Description" "237 kohm 0.1% 25 ppm/C precision thin-film resistor, 0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Manufacturer 1" "TE Connectivity / Holsworthy" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -2291,7 +2291,7 @@
 (property "Overload Test" "JIS-C-5201-1 4.13; lower of 2.5 times RCWV and maximum overload voltage, 5 seconds; resistance change limit +/-0.2% for tolerance >0.05%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "TCR Test" "MIL-STD-202 Method 304, +25/-55/+25/+125/+25 C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Migration Limits" "237 kohm, 0.1%, 25 ppm/C and 50 V match stated historical values. Actual ordinary rating is 63 mW at 70 C ambient, not an unconditional 62.5 mW. Package is 0402. No project pulse or 60 V survival qualification, substitute approval, or legacy verification is inherited." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Part Origin" "Manufacturer-derived footprint: TE 1773200 REV:P 01/25 pp5-6, 0402. OCPM-generated in-house STEP using CadQuery, generator /work/build_candidate.py; not manufacturer-supplied CAD. Nominal rectangular body envelope only; terminations, internal film, edge rounding, markings and solder omitted. Nonpolar terminal numbering locally assigned left 1/right 2." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0402_1005Metric footprint and generic model under the standard passive-package exception. TE CPF0402 nominal body 1.00 x 0.50 x 0.30 mm, two nonpolar end terminals. Shared IPC-style lands 0.54 x 0.64 mm at X +/-0.51 mm, gap 0.48 mm. TE recommended 0402 lands are 0.50 x 0.60 mm with 0.50 mm gap. Shared lands are slightly larger and overlap the intended terminal positions; retained approved generic package, not an exact redrawing of TE lands. Generic model 1.00 x 0.50 x 0.35 mm is 0.05 mm taller than nominal CPF body. Approximate visualization only; actual height/tolerances remain the datasheet values. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "IPN" "P-00051" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "IPN_Class" "Part" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -2319,7 +2319,7 @@
 				)
 			)
 		)
-		(property "FP_Version" "0.1.0"
+		(property "FP_Version" "0.1.1"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2330,7 +2330,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "9cb1be59dcfeba8e"
+		(property "FP_Hash" "cca674d32d743c69"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2341,7 +2341,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "f7004a85258a40b5"
+		(property "Sym_Hash" "0ac6470319772ba8"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "unverified:CPF0402B12KE1_PCB"
+		(property "Footprint" "verified:R_0402_1005Metric"
 			(at -1.778 0 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Part Origin" "OCPM-generated in-house using CadQuery; retained generator build_candidate.py; not manufacturer-supplied CAD. Nominal rectangular 1.00 x 0.50 x 0.30 mm installed body from TE 1773200 Rev P p6. Terminations included only in the undifferentiated rectangular envelope; coating, internal layers, edge radii and marking omitted. Symbol based on KiCad Device:R; unique footprint from TE recommended lands."
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0402_1005Metric footprint and generic model under the standard passive-package exception. TE CPF0402 nominal body 1.00 x 0.50 x 0.30 mm, two nonpolar end terminals. Shared IPC-style lands 0.54 x 0.64 mm at X +/-0.51 mm, gap 0.48 mm. TE recommended 0402 lands are 0.50 x 0.60 mm with 0.50 mm gap. Slightly larger shared lands retain the two-terminal mapping; generic-package choice is explicit and still subject to exact-part review. Generic model 1.00 x 0.50 x 0.35 mm is an approximation 0.05 mm taller than nominal; not an exact manufacturing model. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2630,7 +2630,7 @@
 				)
 			)
 		)
-		(property "FP_Version" "0.1.0"
+		(property "FP_Version" "0.1.1"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2663,7 +2663,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "5a2842c893f7e50d"
+		(property "FP_Hash" "cca674d32d743c69"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2674,7 +2674,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "fb556a4404f64442"
+		(property "Sym_Hash" "965c2a4d22949e60"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
