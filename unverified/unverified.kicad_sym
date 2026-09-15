@@ -6250,4 +6250,179 @@
 		(embedded_fonts no)
 	)
 
-)
+	(symbol "RT0402BRD0744K2L"
+		(pin_names
+			(offset 0) hide)
+		(pin_numbers hide)
+		(in_bom yes)
+		(on_board yes)
+		(property "Type" "SMT"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Reference" "R"
+			(at 2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "44.2k"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "verified:R_0402_1005Metric"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD0744K2L"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Description" "44.2 kOhm precision thin-film resistor, +/-0.1%, +/-25 ppm/degC"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Manufacturer 1" "Yageo"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Manufacturer Part Number 1" "RT0402BRD0744K2L"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Package" "0402 (1005 Metric)"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Tolerance" "±0.1%"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Temperature Coefficient" "±25 ppm/°C"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Power Rating" "62.5 mW at 70°C ambient"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Maximum Working Voltage" "50 V"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Power Derating" "Linear from 62.5 mW at 70°C ambient to 0 W at 155°C; no terminal-temperature rating specified"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Operating Temperature" "-55°C to +155°C"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Voltage Rating Conditions" "DC or AC rms <= min(50 V, sqrt(P_derated * R))"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "IPN" "P-00065"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "IPN_Class" "Part"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "OCPM_Verified" "No"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Library_Status" "Unverified"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Creator" "Steve"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Rev_Creator" "Steve"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Sym_Version" "0.1.0"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "FP_Version" "0.1.1"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "FP_Hash" "cca674d32d743c69"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)) hide))
+		(property "Sym_Hash" "19d5ec1c3f1c2128"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RT0402BRD0744K2L_0_1"
+			(rectangle
+				(start -1.016 2.54)
+				(end 1.016 -2.54)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "RT0402BRD0744K2L_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27))))))))
