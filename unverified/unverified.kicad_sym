@@ -1802,7 +1802,7 @@
 		(property "Value" "402k" (at 0 -2.54 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "verified:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Description" "RES, 402 kΩ, 0805, ±0.1%, thin film, 140 mW (70 °C ambient, general mode; film ≤125 °C; derating applies), TCR ±25 ppm/°C, 150 V ceiling (also power-limited), additional ratings: 220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "RES, 402 kΩ, 0805, ±0.1%, thin film, 140 mW, TCR ±25 ppm/°C, 150 V ceiling" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Manufacturer 1" "Vishay Dale" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Manufacturer Part Number 1" "TNPW0805402KBEEA" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "IPN" "P-00049" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1863,7 +1863,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "9b76c7a3cfe0a439"
+		(property "Sym_Hash" "bf3f37afca0b6e98"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 100 kΩ, 0805, ±0.1%, thin film, 140 mW (70 °C ambient, general mode; film ≤125 °C; derating applies), TCR ±25 ppm/°C, 150 V ceiling (also power-limited), additional ratings: 220/260 mW at 70 °C ambient with film ≤155/175 °C (power/advanced modes); 750 mW at 105 °C terminal, thermally conditional; manufacturer derating applies"
+		(property "Description" "RES, 100 kΩ, 0805, ±0.1%, thin film, 140 mW, TCR ±25 ppm/°C, 150 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2306,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "12ae8d48a5fc53b3"
+		(property "Sym_Hash" "7468f63f1657cbbb"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2441,7 +2441,7 @@
 (property "Value" "237k" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
 (property "Footprint" "verified:R_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW, TCR ±25 ppm/°C, 50 V ceiling" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Manufacturer 1" "TE Connectivity / Holsworthy" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Manufacturer Part Number 1" "CPF0402B237KE1" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
 (property "Package" "0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
@@ -2506,7 +2506,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "ca21a5c9cda2f241"
+		(property "Sym_Hash" "ec39667482d58436"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2630,7 +2630,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 12 kΩ, 0402, ±0.1%, thin film, 63 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 12 kΩ, 0402, ±0.1%, thin film, 63 mW, TCR ±25 ppm/°C, 50 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "e46ff0f3b9875b37"
+		(property "Sym_Hash" "b08dfe6dbdd451c6"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3066,7 +3066,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 2.2 kΩ, 2010, ±1%, thick film, 1 W (70 °C ambient; film ≤155 °C; derate to zero at 155 °C), TCR ±100 ppm/°C, 400 V ceiling (also power-limited), additional ratings: 1.75 W at 105 °C terminal; film ≤155 °C; terminal derating to zero at 155 °C; PCB thermal design required"
+		(property "Description" "RES, 2.2 kΩ, 2010, ±1%, thick film, 1 W, TCR ±100 ppm/°C, 400 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3308,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "bdbf84b09ad9ba80"
+		(property "Sym_Hash" "eb29359c57abae96"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3635,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 1 Ω, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±200 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 1 Ω, 0402, ±1%, thick film, 62.5 mW, TCR ±200 ppm/°C, 50 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +3877,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "343fbf712c98b656"
+		(property "Sym_Hash" "9b65f7761a62ac74"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4110,7 +4110,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 10 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 10 kΩ, 0402, ±1%, thick film, 62.5 mW, TCR ±100 ppm/°C, 50 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "221877e59e0ca28b"
+		(property "Sym_Hash" "2278b51d15d6bf1e"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4607,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 100 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 100 kΩ, 0402, ±1%, thick film, 62.5 mW, TCR ±100 ppm/°C, 50 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +4959,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "89df2da560050aca"
+		(property "Sym_Hash" "f54442079de74c6f"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5132,7 +5132,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 24.9 kΩ, 0402, ±1%, thick film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±100 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 24.9 kΩ, 0402, ±1%, thick film, 62.5 mW, TCR ±100 ppm/°C, 50 V ceiling"
 			(at 2.54 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5154,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "076c5b054c36f5c3"
+		(property "Sym_Hash" "02aaaeb38ae2f18e"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6499,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Description" "RES, 402 kΩ, 0402, ±1%, precision thick film, 63 mW (70 °C; temperature basis and derating not specified in retained exact-part sheet), TCR ±50 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 402 kΩ, 0402, ±1%, precision thick film, 63 mW, TCR ±50 ppm/°C, 50 V ceiling"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,7 +6774,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "fe5102ebbb876242"
+		(property "Sym_Hash" "3a8d9deaef08e2f1"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6987,7 +6987,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Description" "RES, 44.2 kΩ, 0402, ±0.1%, thin film, 62.5 mW (70 °C ambient; derate to zero at 155 °C), TCR ±25 ppm/°C, 50 V ceiling (also power-limited)"
+		(property "Description" "RES, 44.2 kΩ, 0402, ±0.1%, thin film, 62.5 mW, TCR ±25 ppm/°C, 50 V ceiling"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)) hide))
-		(property "Sym_Hash" "21598d36d48106ff"
+		(property "Sym_Hash" "4a0a1b2e7c2583cb"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
