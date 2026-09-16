@@ -1614,28 +1614,200 @@
 		(embedded_fonts no)
 	)
 
-	(symbol "TNPW0805402KBEEA" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-		(property "Reference" "R" (at 0 2.54 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "402k" (at 0 -2.54 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "verified:R_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Description" "RES, 402 kΩ, 0805, ±0.1%, thin film, 140 mW, TCR ±25 ppm/°C, 150 V ceiling" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Manufacturer 1" "Vishay Dale" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Manufacturer Part Number 1" "TNPW0805402KBEEA" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "IPN" "P-00049" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "IPN_Class" "Part" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0805_2012Metric footprint and generic model under the standard passive-package exception. Vishay TNPW 0805 nominal body 2.00 x 1.25 x 0.45 mm; two nonpolar terminals. Shared IPC-style lands 1.025 x 1.40 mm at X +/-0.9125 mm, gap 0.80 mm. Vishay 28950 recommends 0.90 x 1.45 mm lands with 1.00 mm gap. Existing reviewed generic 0805 package selected; dimensional differences are deliberate generic-package reuse, not a claim of exact manufacturer-recommended geometry. Generic model 2.00 x 1.20 x 0.45 mm: width is 0.05 mm below exact nominal body. Approximate visualization only; use 1.25 mm nominal plus datasheet tolerances for mechanical clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Package" "0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Tolerance" "+/-0.1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Temperature Coefficient" "±25 ppm/°C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Type" "Thin film resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Maximum Working Voltage" "150 V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Power Rating" "140 mW" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Rating Conditions" "Derate ambient power linearly above 70 C to zero at selected maximum film temperature. Terminal rating requires thermal design; not 0.75 W at 70 C ambient. Working-voltage limit at 402 kohm gives approximately 56 mW at 150 V. See datasheet curves and mode-specific stability limits." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Legacy Comparison" "Historical 402 kohm, 0.1%, 25 ppm/C and 0805 match. 150 V rating exceeds historical 100 V. P70 modes exceed 125 mW thermally, but 125 mW at 402 kohm would require 224 V and is not permissible under 150 V limit. No inherited qualification or substitute approval." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(symbol "TNPW0805402KBEEA"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "402k"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "verified:R_0805_2012Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 402 kΩ, 0805, ±0.1%, thin film, 140 mW, TCR ±25 ppm/°C, 150 V ceiling"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Vishay Dale"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "TNPW0805402KBEEA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "P-00049"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0805_2012Metric footprint and generic model under the standard passive-package exception. Vishay TNPW 0805 nominal body 2.00 x 1.25 x 0.45 mm; two nonpolar terminals. Shared IPC-style lands 1.025 x 1.40 mm at X +/-0.9125 mm, gap 0.80 mm. Vishay 28950 recommends 0.90 x 1.45 mm lands with 1.00 mm gap. Existing reviewed generic 0805 package selected; dimensional differences are deliberate generic-package reuse, not a claim of exact manufacturer-recommended geometry. Generic model 2.00 x 1.20 x 0.45 mm: width is 0.05 mm below exact nominal body. Approximate visualization only; use 1.25 mm nominal plus datasheet tolerances for mechanical clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+/-0.1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±25 ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin film resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage" "150 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "140 mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating Conditions" "Derate ambient power linearly above 70 C to zero at selected maximum film temperature. Terminal rating requires thermal design; not 0.75 W at 70 C ambient. Working-voltage limit at 402 kohm gives approximately 56 mW at 150 V. See datasheet curves and mode-specific stability limits."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Legacy Comparison" "Historical 402 kohm, 0.1%, 25 ppm/C and 0805 match. 150 V rating exceeds historical 100 V. P70 modes exceed 125 mW thermally, but 125 mW at 402 kohm would require 224 V and is not permissible under 150 V limit. No inherited qualification or substitute approval."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Library_Status" "Unverified"
 			(at 0 0 0)
 			(show_name yes)
@@ -1680,7 +1852,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2571a4ec0d372c50"
+		(property "Sym_Hash" "ecedf9a3ef721d87"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1768,24 +1940,136 @@
 				)
 			)
 		)
-		(symbol "TNPW0805402KBEEA_0_1" (rectangle (start -2.54 1.016) (end 2.54 -1.016) (stroke (width 0.254) (type default)) (fill (type none))))
-		(symbol "TNPW0805402KBEEA_1_1"
-(pin passive line (at -5.08 0 0) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))) )
-(pin passive line (at 5.08 0 180) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))) )
-))	(symbol "TNPW0805100KBEEA"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(pin_numbers
 			(hide yes)
 		)
-		(pin_names
-			(offset 0)
+		(symbol "TNPW0805402KBEEA_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(symbol "TNPW0805402KBEEA_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TNPW0805100KBEEA"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 3.81 1.27 0)
+			(at 2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1795,7 +2079,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 -1.27 0)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "7468f63f1657cbbb"
+		(property "Sym_Hash" "7af933fb13accaf4"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2200,12 +2484,83 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "TNPW0805100KBEEA_0_1"
-			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -2251,34 +2606,237 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-	(symbol "CPF0402B237KE1" (pin_names hide) (pin_numbers hide) (in_bom yes) (on_board yes)
-(property "Reference" "R" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-(property "Value" "237k" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-(property "Footprint" "verified:R_0402_1005Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW, TCR ±25 ppm/°C, 50 V ceiling" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Manufacturer 1" "TE Connectivity / Holsworthy" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Manufacturer Part Number 1" "CPF0402B237KE1" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Package" "0402" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Type" "SMT" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Tolerance" "±0.1%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Temperature Coefficient" "±25 ppm/°C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Power Rating" "63 mW" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Maximum Working Voltage" "50 V" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Maximum Overload Voltage" "100 V" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Operating Temperature" "-55 to +155 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Overload Test" "JIS-C-5201-1 4.13; lower of 2.5 times RCWV and maximum overload voltage, 5 seconds; resistance change limit +/-0.2% for tolerance >0.05%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "TCR Test" "MIL-STD-202 Method 304, +25/-55/+25/+125/+25 C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Migration Limits" "237 kohm, 0.1%, 25 ppm/C and 50 V match stated historical values. Actual ordinary rating is 63 mW at 70 C ambient, not an unconditional 62.5 mW. Package is 0402. No project pulse or 60 V survival qualification, substitute approval, or legacy verification is inherited." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0402_1005Metric footprint and generic model under the standard passive-package exception. TE CPF0402 nominal body 1.00 x 0.50 x 0.30 mm, two nonpolar end terminals. Shared IPC-style lands 0.54 x 0.64 mm at X +/-0.51 mm, gap 0.48 mm. TE recommended 0402 lands are 0.50 x 0.60 mm with 0.50 mm gap. Shared lands are slightly larger and overlap the intended terminal positions; retained approved generic package, not an exact redrawing of TE lands. Generic model 1.00 x 0.50 x 0.35 mm is 0.05 mm taller than nominal CPF body. Approximate visualization only; actual height/tolerances remain the datasheet values. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "IPN" "P-00051" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "IPN_Class" "Part" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "Rev_Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-(property "OCPM_Verified" "No" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+	(symbol "CPF0402B237KE1"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "237k"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "verified:R_0402_1005Metric"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW, TCR ±25 ppm/°C, 50 V ceiling"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "TE Connectivity / Holsworthy"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CPF0402B237KE1"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "SMT"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "±25 ppm/°C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power Rating" "63 mW"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Maximum Working Voltage" "50 V"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Maximum Overload Voltage" "100 V"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 to +155 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Overload Test" "JIS-C-5201-1 4.13; lower of 2.5 times RCWV and maximum overload voltage, 5 seconds; resistance change limit +/-0.2% for tolerance >0.05%"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TCR Test" "MIL-STD-202 Method 304, +25/-55/+25/+125/+25 C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Migration Limits" "237 kohm, 0.1%, 25 ppm/C and 50 V match stated historical values. Actual ordinary rating is 63 mW at 70 C ambient, not an unconditional 62.5 mW. Package is 0402. No project pulse or 60 V survival qualification, substitute approval, or legacy verification is inherited."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0402_1005Metric footprint and generic model under the standard passive-package exception. TE CPF0402 nominal body 1.00 x 0.50 x 0.30 mm, two nonpolar end terminals. Shared IPC-style lands 0.54 x 0.64 mm at X +/-0.51 mm, gap 0.48 mm. TE recommended 0402 lands are 0.50 x 0.60 mm with 0.50 mm gap. Shared lands are slightly larger and overlap the intended terminal positions; retained approved generic package, not an exact redrawing of TE lands. Generic model 1.00 x 0.50 x 0.35 mm is 0.05 mm taller than nominal CPF body. Approximate visualization only; actual height/tolerances remain the datasheet values. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "P-00051"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Library_Status" "Unverified"
 			(at 0 0 0)
 			(show_name yes)
@@ -2323,7 +2881,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "ec39667482d58436"
+		(property "Sym_Hash" "1166f74fd7c42179"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2389,24 +2947,136 @@
 				)
 			)
 		)
-		(symbol "CPF0402B237KE1_0_1" (polyline (pts (xy 0 2.54) (xy 1.016 2.032) (xy -1.016 1.016) (xy 1.016 0) (xy -1.016 -1.016) (xy 1.016 -2.032) (xy 0 -2.54)) (stroke (width 0.254) (type default)) (fill (type none))))
-		(symbol "CPF0402B237KE1_1_1"
-(pin passive line (at 0 5.08 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-(pin passive line (at 0 -5.08 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-))	(symbol "CPF0402B12KE1"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(pin_numbers
 			(hide yes)
 		)
-		(pin_names
-			(offset 0)
+		(symbol "CPF0402B237KE1_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(symbol "CPF0402B237KE1_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CPF0402B12KE1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 3.81 1.27 0)
+			(at 2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2416,7 +3086,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 3.81 -1.27 0)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2711,7 +3381,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "b08dfe6dbdd451c6"
+		(property "Sym_Hash" "90a3683e1934d658"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2777,12 +3447,83 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "CPF0402B12KE1_0_1"
-			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -2828,37 +3569,31 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-	(symbol "CRCW20102K20FKEFHP" (pin_numbers hide)
-		(pin_names
-			(hide yes)
-		)
+	(symbol "CRCW20102K20FKEFHP"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 2.54 1.27 0)
+			(at 2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2.2k"
-			(at 2.54 -1.27 0)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "unverified:CRCW20102K20FKEFHP_PCB"
@@ -3125,7 +3860,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "e30e29b677392a56"
+		(property "Sym_Hash" "0a4afd15817fd0b7"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3191,12 +3926,83 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "CRCW20102K20FKEFHP_0_1"
-			(rectangle
-				(start -1.016 2.54)
-				(end 1.016 -2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -3242,35 +4048,263 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-	(symbol "GRM21BR71A225KA01L" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Value" "2.2 uF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Footprint" "verified:C_0805_2012Metric" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71A225KA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20260730170937" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Description" "CAP, 2.2 µF, 0805, ±10%, X7R, 10 V DC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "IPN" "P-00054" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "IPN_Class" "Part" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Library_Status" "Unverified" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "OCPM_Verified" "No" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Rev_Creator" "Steve" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Sym_Version" "0.1.0" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "FP_Version" "0.1.1" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "FP_Hash" "7e8a52f60f9c7f97" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Manufacturer 1" "Murata" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Manufacturer Part Number 1" "GRM21BR71A225KA01L" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Package" "0805" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Type" "C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Capacitance" "2.2 uF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Tolerance" "±10%" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Voltage" "10 V DC" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Dielectric" "X7R" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Temperature" "-55 to +125 °C" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Rating Conditions" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (p3)" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "DC Bias" "High dielectric constant capacitance changes with DC bias and AC amplitude. Nominal 2.2 uF and ±10% are test-condition ratings, not guaranteed effective capacitance at 10 V. No exact-part quantitative DC-bias curve established from retained source; application bias/temperature/aging assessment required." (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
-		(property "Sym_Hash" "9e7f1adbac2b4082"
+	(symbol "GRM21BR71A225KA01L"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0805_2012Metric"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71A225KA01-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20260730170937"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, 2.2 µF, 0805, ±10%, X7R, 10 V DC"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IPN" "P-00054"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "FP_Hash" "7e8a52f60f9c7f97"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM21BR71A225KA01L"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "C"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "2.2 uF"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10 V DC"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55 to +125 °C"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating Conditions" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (p3)"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DC Bias" "High dielectric constant capacitance changes with DC bias and AC amplitude. Nominal 2.2 uF and ±10% are test-condition ratings, not guaranteed effective capacitance at 10 V. No exact-part quantitative DC-bias curve established from retained source; application bias/temperature/aging assessment required."
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sym_Hash" "2260587002414df2"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3303,39 +4337,297 @@
 				)
 			)
 		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "GRM21BR71A225KA01L_0_1"
- (polyline (pts (xy -2.032 1.27) (xy 2.032 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
- (polyline (pts (xy -2.032 -1.27) (xy 2.032 -1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "GRM21BR71A225KA01L_1_1"
- (pin passive line (at 0 5.08 270) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
- (pin passive line (at 0 -5.08 90) (length 3.81) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))
- )	(symbol "GCM21BR72A104KA37L" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-		(property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Value" "100nF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Footprint" "verified:C_0805_2012Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR72A104KA37-01A.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Description" "CAP, 100 nF, 0805, ±10%, X7R, 100 V DC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "IPN" "P-00055" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "IPN_Class" "Part" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer 1" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Manufacturer Part Number 1" "GCM21BR72A104KA37L" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Package" "0805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Type" "SMT" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Voltage Rating" "100 VDC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Tolerance" "+/-10%" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Operating Temperature" "-55 to +125 C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Capacitance Measurement Conditions" "25 C; 1.0 +/-0.1 kHz; 1.0 +/-0.2 Vrms (reference sheet p5)" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Temperature Characteristics" "+/-15% over -55 to +125 C (X7R); not a DC-bias guarantee" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Rating Conditions" "Applied voltage including transients must remain within rated voltage; DC+AC zero-to-peak and AC/pulse peak-to-peak <=100 V (p12)." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "DC Bias Limitations" "Capacitance decreases with applied DC voltage; no numeric effective-capacitance guarantee at application bias established. Evaluate actual operating voltage, AC amplitude, temperature and aging (pp13-14)." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Packaging" "L: 180 mm reel, 3000 pieces" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Part Origin" "Manufacturer reference sheet; shared reviewed managed KiCad Capacitor_SMD:C_0805_2012Metric package" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Package Limitations" "Generic lands differ from Murata p27 recommendations; actual PCB/process evaluation required. Generic nominal-height model is not maximum-envelope or exact manufacturer CAD." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Library_Status" "Unverified" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GCM21BR72A104KA37L"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0805_2012Metric"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR72A104KA37-01A.pdf"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP, 100 nF, 0805, ±10%, X7R, 100 V DC"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "P-00055"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GCM21BR72A104KA37L"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "100 VDC"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 C"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance Measurement Conditions" "25 C; 1.0 +/-0.1 kHz; 1.0 +/-0.2 Vrms (reference sheet p5)"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Characteristics" "+/-15% over -55 to +125 C (X7R); not a DC-bias guarantee"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating Conditions" "Applied voltage including transients must remain within rated voltage; DC+AC zero-to-peak and AC/pulse peak-to-peak <=100 V (p12)."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Bias Limitations" "Capacitance decreases with applied DC voltage; no numeric effective-capacitance guarantee at application bias established. Evaluate actual operating voltage, AC amplitude, temperature and aging (pp13-14)."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Packaging" "L: 180 mm reel, 3000 pieces"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Origin" "Manufacturer reference sheet; shared reviewed managed KiCad Capacitor_SMD:C_0805_2012Metric package"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Limitations" "Generic lands differ from Murata p27 recommendations; actual PCB/process evaluation required. Generic nominal-height model is not maximum-envelope or exact manufacturer CAD."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sym_Version" "0.1.0"
 			(at 0 0 0)
 			(show_name yes)
@@ -3369,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "7c6378db60636c91"
+		(property "Sym_Hash" "7e6233d4181487f4"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3391,20 +4683,81 @@
 				)
 			)
 		)
-		(symbol "GCM21BR72A104KA37L_0_1"
-			(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
-			(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
+		(pin_names
+			(offset 0.254)
+			(hide yes)
 		)
-		(symbol "GCM21BR72A104KA37L_1_1"
-			(pin passive line (at 0 2.54 270) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-			(pin passive line (at 0 -2.54 90) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-))	(symbol "RC0402FR-071RL"
 		(pin_numbers
 			(hide yes)
 		)
-		(pin_names
-			(offset 0)
+		(symbol "GCM21BR72A104KA37L_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(symbol "GCM21BR72A104KA37L_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RC0402FR-071RL"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3694,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "9b65f7761a62ac74"
+		(property "Sym_Hash" "239cf666f5555759"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3771,10 +5124,19 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RC0402FR-071RL_0_1"
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 0 2.54)
+					(xy 0 2.286)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3786,7 +5148,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -3798,7 +5164,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -3810,7 +5180,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -3822,7 +5196,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
+					(xy 0 -2.286)
+					(xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -3871,15 +5246,8 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0710KL"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4202,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2278b51d15d6bf1e"
+		(property "Sym_Hash" "f12e9d89d27ca3f5"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4268,10 +5636,19 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RC0402FR-0710KL_0_1"
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 0 2.54)
+					(xy 0 2.286)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -4283,7 +5660,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -4295,7 +5676,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -4307,7 +5692,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -4319,7 +5708,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
+					(xy 0 -2.286)
+					(xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -4368,22 +5758,15 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07100KL"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 2.032 0 90)
+			(at 2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4393,7 +5776,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 0 90)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4776,7 +6159,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "f54442079de74c6f"
+		(property "Sym_Hash" "a1e8c37e7bc93350"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4842,12 +6225,83 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RC0402FR-07100KL_0_1"
-			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4893,38 +6347,31 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-	(symbol "RC0402FR-0724K9L" (pin_numbers hide)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
+	(symbol "RC0402FR-0724K9L"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
-			(at 2.54 1.27 0)
+			(at 2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "24.9k"
-			(at 2.54 -1.27 0)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "verified:R_0402_1005Metric"
@@ -4971,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "2519c06e629a0f1f"
+		(property "Sym_Hash" "f776139d9b6a89ff"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5246,12 +6693,83 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RC0402FR-0724K9L_0_1"
-			(rectangle
-				(start -1.016 2.54)
-				(end 1.016 -2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -5297,38 +6815,275 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-	(symbol "GRM188R71C224KA01D" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-		(property "Reference" "C" (at 1.27 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Value" "220nF" (at 1.27 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Footprint" "verified:C_0603_1608Metric" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C224KA01-01A.pdf" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Description" "CAP, 220 nF, 0603, ±10%, X7R, 16 V DC" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Manufacturer 1" "Murata" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Manufacturer Part Number 1" "GRM188R71C224KA01D" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "IPN" "P-00060" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "IPN_Class" "Part" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Package" "0603" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Type" "SMT" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Dielectric" "X7R" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Voltage Rating" "16 VDC" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Tolerance" "±10%" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Operating Temperature" "-55 to +125 °C" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Temperature Characteristics" "±15% over -55 to +125 °C, reference 25 °C" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Capacitance Measurement" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (datasheet p3)" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Voltage Conditions" "Maximum continuous DC 16 V; superimposed AC peak-to-peak or zero-to-peak, whichever larger, within rated voltage (p3). Evaluate ripple/self-heating (p12)." (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "DC Bias Limitation" "High-K capacitance decreases with applied DC voltage; evaluate actual circuit. No guaranteed effective capacitance at operating bias established (p12). AC amplitude, temperature and aging also affect capacitance (pp12-13)." (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Packaging" "D: 180 mm reel, paper tape W8P4, 4000 pcs/reel" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Creator" "Steve" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Rev_Creator" "Steve" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "OCPM_Verified" "No" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Sym_Version" "0.1.0" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Sym_Hash" "080e3cbc439e8b90" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "FP_Version" "0.1.1" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "FP_Hash" "dece991b2937f49e" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Part Origin" "Exact Murata source; reviewed managed generic Capacitor_SMD:C_0603_1608Metric package retained" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Library_Status" "Unverified" (at 1.27 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
+	(symbol "GRM188R71C224KA01D"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0603_1608Metric"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C224KA01-01A.pdf"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "CAP, 220 nF, 0603, ±10%, X7R, 16 V DC"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM188R71C224KA01D"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "P-00060"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "SMT"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "16 VDC"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 °C"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Characteristics" "±15% over -55 to +125 °C, reference 25 °C"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance Measurement" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (datasheet p3)"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Conditions" "Maximum continuous DC 16 V; superimposed AC peak-to-peak or zero-to-peak, whichever larger, within rated voltage (p3). Evaluate ripple/self-heating (p12)."
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DC Bias Limitation" "High-K capacitance decreases with applied DC voltage; evaluate actual circuit. No guaranteed effective capacitance at operating bias established (p12). AC amplitude, temperature and aging also affect capacitance (pp12-13)."
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Packaging" "D: 180 mm reel, paper tape W8P4, 4000 pcs/reel"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Hash" "a408f7bc1e18fd08"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Hash" "dece991b2937f49e"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Origin" "Exact Murata source; reviewed managed generic Capacitor_SMD:C_0603_1608Metric package retained"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Package Detail" "1608M (0603)"
 			(at 0 0 0)
 			(show_name yes)
@@ -5340,40 +7095,295 @@
 				)
 			)
 		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "GRM188R71C224KA01D_0_1"
-(polyline (pts (xy -1.016 0.508) (xy 1.016 0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
-(polyline (pts (xy -1.016 -0.508) (xy 1.016 -0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
-)
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "GRM188R71C224KA01D_1_1"
-(pin passive line (at 0 2.54 270) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-(pin passive line (at 0 -2.54 90) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-)
-)
-	(symbol "GRM188R71E104KA01D" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-  (property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-  (property "Value" "100 nF" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27)) (justify left)))
-  (property "Footprint" "verified:C_0603_1608Metric" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "IPN" "P-00061" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "IPN_Class" "Part" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Manufacturer 1" "Murata" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Manufacturer Part Number 1" "GRM188R71E104KA01D" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Package" "0603" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Type" "SMD" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Dielectric" "X7R" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Voltage Rating" "25 Vdc" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Tolerance" "+/-10%" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Operating Temperature" "-55 to +125 deg C" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee." (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Library_Status" "Unverified" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "OCPM_Verified" "No" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Creator" "Steve" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Rev_Creator" "Steve" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "Sym_Version" "0.1.0" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "FP_Version" "0.1.1" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-  (property "FP_Hash" "dece991b2937f49e" (at 2.54 0 0) (effects (font (size 1.27 1.27)) (justify left) hide))
-		(property "Sym_Hash" "ec2dce72ad44c4c2"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GRM188R71E104KA01D"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0603_1608Metric"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://pimapi.murata.com/public/api/pim/v1/products/search"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "CAP, 100 nF, 0603, ±10%, X7R, 25 V DC"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "P-00061"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM188R71E104KA01D"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "SMD"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "25 Vdc"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 deg C"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating Conditions" "Nominal 100 nF +/-10%, rated 25 Vdc; X7R temperature characteristic +/-15% over -55 to +125 deg C. Capacitance test frequency, AC amplitude, reference temperature and preconditioning are not supplied by retained sources. No exact DC-bias curve established; do not infer 100 nF effective capacitance at 25 V or combine tolerance and temperature ratings as a bias guarantee."
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Hash" "dece991b2937f49e"
+			(at 2.54 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Hash" "c25b734526883d9e"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5395,20 +7405,81 @@
 				)
 			)
 		)
-		(symbol "GRM188R71E104KA01D_0_1"
- (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
- (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type default)) (fill (type none)))
-)
-		(symbol "GRM188R71E104KA01D_1_1"
- (pin passive line (at 0 2.54 270) (length 2.032) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
- (pin passive line (at 0 -2.54 90) (length 2.032) (name "" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-))	(symbol "GRM32ER72A225KA35L"
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
 		(pin_numbers
 			(hide yes)
 		)
-		(pin_names
-			(offset 0.254)
+		(symbol "GRM188R71E104KA01D_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
+		(symbol "GRM188R71E104KA01D_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GRM32ER72A225KA35L"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5766,7 +7837,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "1f3c4230ebe0a457"
+		(property "Sym_Hash" "60de9d918bb14418"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5788,10 +7859,19 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "GRM32ER72A225KA35L_0_1"
 			(polyline
 				(pts
-					(xy -2.032 1.27) (xy 2.032 1.27)
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -5803,7 +7883,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 -1.27) (xy 2.032 -1.27)
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -5816,8 +7897,8 @@
 		)
 		(symbol "GRM32ER72A225KA35L_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 3.81)
+				(at 0 2.54 270)
+				(length 1.524)
 				(name ""
 					(effects
 						(font
@@ -5834,8 +7915,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
-				(length 3.81)
+				(at 0 -2.54 90)
+				(length 1.524)
 				(name ""
 					(effects
 						(font
@@ -5852,15 +7933,8 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "GRM32ER71E226KE15L"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6174,7 +8248,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "4d3a492291abff9a"
+		(property "Sym_Hash" "6d2343bae03d1ca1"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6196,10 +8270,19 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "GRM32ER71E226KE15L_0_1"
 			(polyline
 				(pts
-					(xy -2.032 1.016) (xy 2.032 1.016)
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -6211,7 +8294,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 -1.016) (xy 2.032 -1.016)
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -6224,8 +8308,8 @@
 		)
 		(symbol "GRM32ER71E226KE15L_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 3.81)
+				(at 0 2.54 270)
+				(length 1.524)
 				(name ""
 					(effects
 						(font
@@ -6242,8 +8326,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
-				(length 3.81)
+				(at 0 -2.54 90)
+				(length 1.524)
 				(name ""
 					(effects
 						(font
@@ -6260,15 +8344,8 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "RE0402FRE07402KL"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6591,7 +8668,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "3a8d9deaef08e2f1"
+		(property "Sym_Hash" "6e85c4f69b46c287"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6668,10 +8745,19 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RE0402FRE07402KL_0_1"
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 0 2.54)
+					(xy 0 2.286)
+					(xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -6683,7 +8769,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -6695,7 +8785,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -6707,7 +8801,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -6719,7 +8817,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.286) (xy 0 -2.54)
+					(xy 0 -2.286)
+					(xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -6768,143 +8867,215 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
-
 	(symbol "RT0402BRD0744K2L"
-		(pin_names
-			(offset 0) hide)
-		(pin_numbers hide)
 		(in_bom yes)
 		(on_board yes)
 		(property "Type" "SMT"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Reference" "R"
-			(at 2.54 1.27 0)
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27))
-				(justify left)))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Value" "44.2k"
-			(at 2.54 -1.27 0)
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27))
-				(justify left)))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "verified:R_0402_1005Metric"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD0744K2L"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "RES, 44.2 kΩ, 0402, ±0.1%, thin film, 62.5 mW, TCR ±25 ppm/°C, 50 V ceiling"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer 1" "Yageo"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer Part Number 1" "RT0402BRD0744K2L"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Package" "0402"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Tolerance" "±0.1%"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Temperature Coefficient" "±25 ppm/°C"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Power Rating" "62.5 mW"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Maximum Working Voltage" "50 V"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Power Derating" "Linear from 62.5 mW at 70°C ambient to 0 W at 155°C; no terminal-temperature rating specified"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Operating Temperature" "-55°C to +155°C"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Voltage Rating Conditions" "DC or AC rms <= min(50 V, sqrt(P_derated * R))"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "IPN" "P-00065"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "IPN_Class" "Part"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "OCPM_Verified" "No"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Library_Status" "Unverified"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Creator" "Steve"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Rev_Creator" "Steve"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sym_Version" "0.1.0"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "FP_Version" "0.1.1"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "FP_Hash" "cca674d32d743c69"
 			(at 2.54 0 0)
-			(effects
+			(effects hide
 				(font
-					(size 1.27 1.27)) hide))
-		(property "Sym_Hash" "4a0a1b2e7c2583cb"
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "f61990a4f8fa86f5"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6959,15 +9130,89 @@
 				)
 			)
 		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
 		(symbol "RT0402BRD0744K2L_0_1"
-			(rectangle
-				(start -1.016 2.54)
-				(end 1.016 -2.54)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
 				(stroke
-					(width 0.254)
-					(type default))
+					(width 0)
+					(type default)
+				)
 				(fill
-					(type none))))
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "RT0402BRD0744K2L_1_1"
 			(pin passive line
 				(at 0 5.08 270)
@@ -6975,51 +9220,304 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27))))
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)))))
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27))))
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)))))))	(symbol "RC0402JR-070RL" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
- (property "Reference" "R" (at 2.54 1.27 0) (effects (font (size 1.27 1.27))))
- (property "Value" "0R" (at 2.54 -1.27 0) (effects (font (size 1.27 1.27))))
- (property "Footprint" "verified:R_0402_1005Metric" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated, 2 A maximum" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Manufacturer 1" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Manufacturer Part Number 1" "RC0402JR-070RL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Package" "0402" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Type" "SMT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Temperature Coefficient" "Not applicable (zero-ohm jumper)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Resistance Limit" "<50 mOhm initial" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Rated Current" "1 A" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Maximum Current" "2 A" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Maximum Working Voltage" "Not applicable as resistor voltage rating; zero-ohm jumper is current-limited" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "IPN" "P-00066" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "IPN_Class" "Part" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Library_Status" "Unverified" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "OCPM_Verified" "No" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Rev_Creator" "Steve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Sym_Hash" "fb84cd40a2c5ea92" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Sym_Version" "0.1.0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "FP_Version" "0.1.1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "FP_Hash" "cca674d32d743c69" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
- (property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RC0402JR-070RL"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "verified:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 0 Ω, 0402, jumper, <50 mΩ initial, 1 A rated, 2 A maximum"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Yageo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "RC0402JR-070RL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "Not applicable (zero-ohm jumper; J is ordering code)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "Not applicable (zero-ohm jumper)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance Limit" "<50 mOhm initial"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Current" "1 A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Current" "2 A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "0.0625 W standard package rating at 70 C ambient; not terminal-temperature rating"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Derating" "RC0402: ambient power curve 100% through 70 C, linearly to 0% at 155 C (Fig.10-1). Jumper current is limited by heating; use I <= 1 A * sqrt((155-Tamb)/85) above 70 C as derived conservative thermal interpretation, not a separately tabulated manufacturer current curve."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55 to +155 C; rated load derates above 70 C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage" "Not applicable as resistor voltage rating; zero-ohm jumper is current-limited"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "P-00066"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sym_Hash" "367b3db58b6621a4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FP_Hash" "cca674d32d743c69"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "Manufacturer RC_L V14; reused reviewed managed R_0402_1005Metric generic package, not substitute approval"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package Detail" "0402 (1005 metric)"
 			(at 0 0 0)
 			(show_name yes)
@@ -7075,8 +9573,797 @@
 				)
 			)
 		)
- (symbol "RC0402JR-070RL_0_1" (rectangle (start -1.016 2.54) (end 1.016 -2.54) (stroke (width 0.254) (type default)) (fill (type none))))
- (symbol "RC0402JR-070RL_1_1"
- (pin passive line (at 0 5.08 270) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
- (pin passive line (at 0 -5.08 90) (length 2.54) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))
- ))
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(symbol "RC0402JR-070RL_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RC0402JR-070RL_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GRM21BR71E105KA99L"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0805_2012Metric"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E105KA99-01.pdf"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP, 1 µF, 0805, ±10%, X7R, 25 V DC"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM21BR71E105KA99L"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "25 VDC"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 C"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance Measurement" "Room temperature; 1 kHz +/-10%; 1.0 +/-0.2 Vrms (spec p.2)"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Characteristic" "+/-15% relative to 25 C over -55 to +125 C; no bias"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Bias Limitation" "Effective capacitance decreases with DC bias; exact bias curve not provided by this reference. 1uF is not guaranteed at application DC voltage. AC peak plus DC must remain within rated voltage."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Legacy Comparison" "Nominal 1uF,25V,X7R,+/-10%,0805 agree with legacy context; no controller qualification, effective-capacitance guarantee, or substitute approval inherited."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0805_2012Metric footprint and generic model under the standard passive-package exception. Murata GRM21B nominal body 2.00 x 1.25 x 1.25 mm; unpolarized two end terminals. Retained IPC-style lands are 1.00 x 1.45 mm at X +/-0.95 mm (0.90 mm gap). Murata p26 recommends 0.6-0.8 x 1.2-1.4 mm lands with 1.2 mm gap. The shared footprint uses wider lands with the same 1.90 mm nominal pitch as the manufacturer-range midpoint. Selected as the existing reviewed generic 0805 package, not represented as an exact copy of Murata recommended geometry; assembly choice remains visible for exact-part review. Existing generic model bounding box 2.00 x 1.25 x 1.25 mm agrees with nominal body; idealized terminals and no internal construction. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "P-00047"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Version" "0.1.1"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Hash" "7e8a52f60f9c7f97"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "0a95b6754c0f7212"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0805 (2012 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(symbol "GRM21BR71E105KA99L_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GRM21BR71E105KA99L_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "04025A6R8JAT2A"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8pF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0402_1005Metric"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://catalogs.kyocera-avx.com/SurfaceMount.pdf"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP, 6.8 pF, 0402, ±5%, C0G/NP0, 50 V DC"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "KYOCERA AVX"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "04025A6R8JAT2A"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "P-00048"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OCPM_Verified" "No"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Library_Status" "Unverified"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G (NP0)"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 VDC"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "0 ±30 ppm/°C, -55 to +125 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance Measurement" "1 MHz ±10%, 1.0 Vrms ±0.2 V; C <=1000 pF"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Q Minimum" "536 for 6.8 pF (400+20C, C<30 pF); same capacitance test conditions"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DC Bias" "No exact-part quantitative bias curve established. Nominal capacitance is not a guarantee at application DC bias."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed C_0402_1005Metric footprint and generic model under the standard passive-package exception. KYOCERA AVX standard 0402 nominal 1.00 x 0.50 mm body, maximum height 0.56 mm; unpolarized end terminals. Retained IPC-style lands are 0.56 x 0.62 mm at X +/-0.48 mm, gap 0.40 mm. AVX mounting guide recommends 0.60 x 0.50 mm lands, gap 0.50 mm, overall 1.70 mm. Shared 0402 lands span 1.52 mm and are wider transversely. This is the existing reviewed generic package selection, not claimed identical to AVX recommended lands; exact-part assembly review remains required. Generic model is 1.00 x 0.50 x 0.50 mm. It is a nominal visualization, NOT the 0.56 mm maximum-height clearance envelope; use the exact datasheet for height clearance. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Migration Notes" "Nominal capacitance, voltage, dielectric, tolerance and size match historical P-00029 context. New exact-MPN Part; no inherited verification, stock guarantee, oscillator qualification, substitution approval or project changes."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Capacitor"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Version" "0.1.1"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Version" "0.1.0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Hash" "83416f012c08f93a"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "3290f6115e6b1cb0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(symbol "04025A6R8JAT2A_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "04025A6R8JAT2A_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)
