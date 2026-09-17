@@ -18791,4 +18791,357 @@
 			)
 		)
 	)
+	(symbol "GRM188R71C224KA01D"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "verified:C_0603_1608Metric"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C224KA01-01A.pdf"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "CAP, 220 nF, 0603, ±10%, X7R, 16 V DC"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "Murata"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM188R71C224KA01D"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "P-00060"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "SMT"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "16 VDC"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 to +125 °C"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Characteristics" "±15% over -55 to +125 °C, reference 25 °C"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance Measurement" "Room temperature; 1.0±0.1 kHz, 1.0±0.2 Vrms (datasheet p3)"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Conditions" "Maximum continuous DC 16 V; superimposed AC peak-to-peak or zero-to-peak, whichever larger, within rated voltage (p3). Evaluate ripple/self-heating (p12)."
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DC Bias Limitation" "High-K capacitance decreases with applied DC voltage; evaluate actual circuit. No guaranteed effective capacitance at operating bias established (p12). AC amplitude, temperature and aging also affect capacitance (pp12-13)."
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Packaging" "D: 180 mm reel, paper tape W8P4, 4000 pcs/reel"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "OCPM_Verified" "Yes"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sym_Hash" "a408f7bc1e18fd08"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "FP_Hash" "dece991b2937f49e"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Origin" "Exact Murata source; reviewed managed generic Capacitor_SMD:C_0603_1608Metric package retained"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Library_Status" "Prototype"
+			(at 1.27 0 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package Detail" "1608M (0603)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(symbol "GRM188R71C224KA01D_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762)
+					(xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762)
+					(xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GRM188R71C224KA01D_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.524)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
