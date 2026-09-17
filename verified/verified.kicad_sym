@@ -16509,4 +16509,466 @@
 			)
 		)
 	)
+	(symbol "CPF0402B237KE1"
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "237k"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "verified:R_0402_1005Metric"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773200%7FP%7Fpdf%7FEnglish%7FENG_DS_1773200_P.pdf"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES, 237 kΩ, 0402, ±0.1%, thin film, 63 mW, TCR ±25 ppm/°C, 50 V ceiling"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "TE Connectivity / Holsworthy"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CPF0402B237KE1"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "SMT"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "±25 ppm/°C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power Rating" "63 mW"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Maximum Working Voltage" "50 V"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Maximum Overload Voltage" "100 V"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operating Temperature" "-55 to +155 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power Rating Conditions" "70 °C ambient; derate to zero at 155 °C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Overload Test" "JIS-C-5201-1 4.13; lower of 2.5 times RCWV and maximum overload voltage, 5 seconds; resistance change limit +/-0.2% for tolerance >0.05%"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TCR Test" "MIL-STD-202 Method 304, +25/-55/+25/+125/+25 C"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Migration Limits" "237 kohm, 0.1%, 25 ppm/C and 50 V match stated historical values. Actual ordinary rating is 63 mW at 70 C ambient, not an unconditional 62.5 mW. Package is 0402. No project pulse or 60 V survival qualification, substitute approval, or legacy verification is inherited."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses the unchanged reviewed OCPM managed R_0402_1005Metric footprint and generic model under the standard passive-package exception. TE CPF0402 nominal body 1.00 x 0.50 x 0.30 mm, two nonpolar end terminals. Shared IPC-style lands 0.54 x 0.64 mm at X +/-0.51 mm, gap 0.48 mm. TE recommended 0402 lands are 0.50 x 0.60 mm with 0.50 mm gap. Shared lands are slightly larger and overlap the intended terminal positions; retained approved generic package, not an exact redrawing of TE lands. Generic model 1.00 x 0.50 x 0.35 mm is 0.05 mm taller than nominal CPF body. Approximate visualization only; actual height/tolerances remain the datasheet values. Original unique draft package and evidence retained in private shared-reuse migration recovery storage. No prior Spec verification is transferred."
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "P-00051"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "OCPM_Verified" "Yes"
+			(at 2.54 -1.27 0)
+			(effects hide
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Library_Status" "Prototype"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FP_Hash" "cca674d32d743c69"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "1166f74fd7c42179"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package Detail" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Detail" "0.063 W at 70 °C ambient; derate to zero at 155 °C"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Conditions Detail" "70 C ambient; manufacturer ambient derating applies; not a terminal-temperature rating"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Maximum Working Voltage Detail" "50 V; also limited by sqrt(P_derated × R)"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(symbol "CPF0402B237KE1_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPF0402B237KE1_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
