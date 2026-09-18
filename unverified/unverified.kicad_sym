@@ -1640,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "unverified:CRCW20102K20FKEFHP_PCB"
+		(property "Footprint" "verified:R_2010_5025Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1794,7 +1794,7 @@
 				)
 			)
 		)
-		(property "Part Origin" "OCPM original symbol and manufacturer-recommended reflow footprint from Vishay 20043 Rev 17-Mar-2026 pp1-3,9. OCPM-generated in-house STEP, not manufacturer-supplied CAD, using CadQuery; generator build_candidate.py retained. Approximate nominal installed envelope 5.0 x 2.5 x 0.6 mm, two 0.6 mm end terminals; flat faces, no internal films, coating thickness, edge radii or marking detail. Terminal/body color and coplanar underside are illustrative. Not a manufacturing model."
+		(property "Part Origin" "Exact-MPN symbol created by Steve. Reuses unchanged managed IPC-nominal R_2010_5025Metric footprint and frozen generic KiCad model, not Vishay CAD. Lands differ from Vishay recommended reflow; body/terminal fit, power/thermal and model limitations are recorded in shared-package compatibility and review/footprint-modes-2026-09-17/REPORT.md. Generic STEP is not a maximum-tolerance clearance envelope; use datasheet Hmax0.7mm. Original unique draft CAD/source retained in review/footprint-modes-2026-09-17/retired-unique-draft. No verification transferred."
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +1860,7 @@
 				)
 			)
 		)
-		(property "FP_Version" "0.1.0"
+		(property "FP_Version" "0.1.1"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +1893,7 @@
 				)
 			)
 		)
-		(property "FP_Hash" "42687dbce99f5b43"
+		(property "FP_Hash" "f5ba023022d6a77d"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -1904,7 +1904,7 @@
 				)
 			)
 		)
-		(property "Sym_Hash" "0a4afd15817fd0b7"
+		(property "Sym_Hash" "74e5122f652eb514"
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
