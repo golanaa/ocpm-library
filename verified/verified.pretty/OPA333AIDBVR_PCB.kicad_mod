@@ -4,7 +4,7 @@
 (property "Creator" "Steve" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.8 0.8) (thickness 0.12))))
 (property "Rev_Creator" "Steve" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.8 0.8) (thickness 0.12))))
 (property "FP_Version" "0.1.0" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.8 0.8) (thickness 0.12))))
-(property "FP_Hash" "0372a8b05d4b29ad" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.8 0.8) (thickness 0.12))))
+(property "FP_Hash" "697bc27ace7ac614" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 0.8 0.8) (thickness 0.12))))
 (attr smd)
 (fp_line (start -0.4 -1.45) (end 0.8 -1.45) (stroke (width 0.1) (type default)) (layer "F.Fab"))
 (fp_line (start 0.8 -1.45) (end 0.8 1.45) (stroke (width 0.1) (type default)) (layer "F.Fab"))
@@ -31,7 +31,7 @@
 (pad "5" smd roundrect (at 1.3 -0.95) (size 1.1 0.6) (layers "F.Cu") (roundrect_rratio 0.083333333333))
 (pad "" smd roundrect (at 1.3 -0.95) (size 1.24 0.74) (layers "F.Mask") (roundrect_rratio 0.162162162162))
 (pad "" smd roundrect (at 1.3 -0.95) (size 1.1 0.6) (layers "F.Paste") (roundrect_rratio 0.083333333333))
-(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/OPA333AIDBVR_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))	(property "IPN" "P-00071"
+(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/OPA333AIDBVR_PCB.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))	(property "IPN" "P-00071"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
