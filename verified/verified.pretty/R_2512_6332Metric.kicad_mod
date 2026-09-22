@@ -23,7 +23,7 @@
   (pad "" smd rect (at -2.015 0) (size 3.43 3.68) (layers "F.Paste"))
   (pad "" smd rect (at 2.015 0) (size 3.43 3.68) (layers "F.Paste"))
   (embedded_fonts no)
-  (model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/R_2512_6332Metric.step"
+  (model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/R_2512_6332Metric.step"
     (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 	(property "Source_Manifest_Hash" "5422006c549acfdeba9966da6cf9881450b6007d75a8bbad0bd1c8638b2f8895"
 		(at 0 0 0)
@@ -36,7 +36,7 @@
 			)
 		)
 	)
-	(property "FP_Hash" "7e1d20efe63b03f4"
+	(property "FP_Hash" "d87ee66de5df1f65"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
