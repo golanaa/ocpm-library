@@ -517,7 +517,7 @@
 		(layers "F.Paste")
 		(roundrect_rratio 0.166666667)
 	)
-	(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/TPS48110AQDGXRQ1_PCB.step"
+	(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/TPS48110AQDGXRQ1_PCB.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -561,7 +561,7 @@
 			)
 		)
 	)
-	(property "FP_Hash" "c967f8529304fbfe"
+	(property "FP_Hash" "1fb60157d2659de0"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
