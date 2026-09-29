@@ -1,0 +1,603 @@
+(footprint "IPT015N10N5ATMA1_PCB"
+	(version 20240108)
+	(generator "ocpm_fet_template_v1")
+	(layer "F.Cu")
+	(attr smd)
+	(property "Reference" "REF**"
+		(at 0 -6.17 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IPT015N10N5ATMA1"
+		(at 0 6.17 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(fp_line
+		(start -4.465 -4.95)
+		(end 5.215 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.215 -4.95)
+		(end 5.215 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.215 4.95)
+		(end -5.215 4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -5.215 4.95)
+		(end -5.215 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -5.215 -4.2)
+		(end -4.465 -4.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -3.6504999999999996 -5.36368125)
+		(end 3.6504999999999996 -5.36368125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.6504999999999996 5.36368125)
+		(end 3.6504999999999996 5.36368125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -6.933000000000001 -4.19981875)
+		(end -6.780600000000001 -4.19981875)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.83 -5.37)
+		(end 7.05 -5.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.05 -5.37)
+		(end 7.05 5.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.05 5.37)
+		(end -6.83 5.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -6.83 5.37)
+		(end -6.83 -5.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 4.20018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 4.20018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at -0.09300000000000005 -4.19981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 1.107 -4.19981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 2.307 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 4.20018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 3.00018125)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 3.507 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 1.8001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 0.6001812499999998)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 4.707 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 -0.5998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 -1.7998187500000002)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 -2.99981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd circle
+		(at 5.907 -4.19981875)
+		(size 1 1)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 -4.1998187499999995)
+		(size 2.8000000000000003 0.7999999999999998)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 -2.99981875)
+		(size 2.8000000000000003 0.7999999999999998)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 -1.7998187500000002)
+		(size 2.8000000000000003 0.8000000000000003)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 -0.5998187500000002)
+		(size 2.8000000000000003 0.8)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 0.6001812499999998)
+		(size 2.8000000000000003 0.8)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 1.8001812499999998)
+		(size 2.8000000000000003 0.8000000000000003)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 3.00018125)
+		(size 2.8000000000000003 0.7999999999999998)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 4.200181249999999)
+		(size 2.8000000000000003 0.7999999999999998)
+		(layers "F.Mask")
+	)
+	(pad "2" smd rect
+		(at -4.173 0.6001812499999997)
+		(size 0.8000000000000003 8)
+		(layers "F.Cu")
+	)
+	(pad "" smd rect
+		(at -4.173 0.6001812499999997)
+		(size 0.8000000000000003 8)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -5.173 -4.19981875)
+		(size 2.5999999999999996 0.6999999999999997)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 4.20018125)
+		(size 2.5999999999999996 0.6999999999999997)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 3.00018125)
+		(size 2.5999999999999996 0.7000000000000002)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 1.8001812499999996)
+		(size 2.5999999999999996 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 0.6001812499999998)
+		(size 2.5999999999999996 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 -0.5998187500000002)
+		(size 2.5999999999999996 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 -1.79981875)
+		(size 2.5999999999999996 0.7)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -5.173 -2.99981875)
+		(size 2.5999999999999996 0.7000000000000002)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 0.577 0.00018124999999979963)
+		(size 3.7 9.7)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 3.877 0.00018124999999979963)
+		(size 2.9 8.7)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 6.027 0.00018124999999979963)
+		(size 1.4000000000000004 10.1)
+		(layers "F.Mask")
+	)
+	(pad "Tab" smd rect
+		(at 0.577 0.00018124999999979963)
+		(size 3.827 9.827)
+		(layers "F.Cu")
+	)
+	(pad "Tab" smd rect
+		(at 3.877 0.00018124999999979963)
+		(size 3.027 8.827)
+		(layers "F.Cu")
+	)
+	(pad "Tab" smd rect
+		(at 6.027 0.00018124999999979963)
+		(size 1.5270000000000004 10.227)
+		(layers "F.Cu")
+	)
+	(pad "1" smd rect
+		(at -5.173 -4.19981875)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "2" smd rect
+		(at -5.173 -2.99981875)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "3" smd rect
+		(at -5.173 -1.7998187500000002)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "4" smd rect
+		(at -5.173 -0.5998187500000002)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "5" smd rect
+		(at -5.173 0.6001812499999998)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "6" smd rect
+		(at -5.173 1.8001812499999998)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "7" smd rect
+		(at -5.173 3.00018125)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(pad "8" smd rect
+		(at -5.173 4.20018125)
+		(size 2.8 0.8)
+		(layers "F.Cu")
+	)
+	(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/IPT015N10N5ATMA1_PCB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(property "IPN" "P-00081"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/IPT015N10N5ATMA1_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "a28814ede67b827c642e2ac20d866d80ad8898e421574ce77508bf6d5b0dd6d2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "682663251e82accd"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
