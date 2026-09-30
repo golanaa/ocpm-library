@@ -545,7 +545,7 @@
 		(size 2.8 0.8)
 		(layers "F.Cu")
 	)
-	(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/IPT015N10N5ATMA1_PCB.step"
+	(model "${OCPM_3DMODEL_DIR}/verified/verified.3dshapes/IPT015N10N5ATMA1_PCB.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -589,7 +589,7 @@
 			)
 		)
 	)
-	(property "FP_Hash" "682663251e82accd"
+	(property "FP_Hash" "e58d54bf6e9b318e"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
