@@ -1,0 +1,473 @@
+(footprint "ADS1131ID_PCB"
+	(version 20240108)
+	(generator "ocpm_ic_template_v1")
+	(layer "F.Cu")
+	(attr smd)
+	(property "Reference" "REF**"
+		(at 0 -6.02 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ADS1131ID"
+		(at 0 5.91 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rev_Creator" "Steve"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Version" "0.1.0"
+		(at 0 0 0)
+		(layer "F.Fab")
+ hide
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(fp_line
+		(start -1.2439 -5.0038)
+		(end 1.9939 -5.0038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.9939 -5.0038)
+		(end 1.9939 5.0038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.9939 5.0038)
+		(end -1.9939 5.0038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.9939 5.0038)
+		(end -1.9939 -4.2538)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.9939 -4.2538)
+		(end -1.2439 -5.0038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1.39573 -5.2038)
+		(end 1.39573 -5.2038)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.39573 5.2038)
+		(end 1.39573 5.2038)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -3.95 -4.445)
+		(end -3.7976 -4.445)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.7 -5.26)
+		(end 3.7 -5.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.7 -5.26)
+		(end 3.7 5.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.7 5.26)
+		(end -3.7 5.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.7 5.26)
+		(end -3.7 -5.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(pad "1" smd rect
+		(at -2.4622 -4.445)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "2" smd rect
+		(at -2.4622 -3.175)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "3" smd rect
+		(at -2.4622 -1.905)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "4" smd rect
+		(at -2.4622 -0.635)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "5" smd rect
+		(at -2.4622 0.635)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "6" smd rect
+		(at -2.4622 1.905)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "7" smd rect
+		(at -2.4622 3.175)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "8" smd rect
+		(at -2.4622 4.445)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "16" smd rect
+		(at 2.4622 -4.445)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "15" smd rect
+		(at 2.4622 -3.175)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "14" smd rect
+		(at 2.4622 -1.905)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "13" smd rect
+		(at 2.4622 -0.635)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "12" smd rect
+		(at 2.4622 0.635)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "11" smd rect
+		(at 2.4622 1.905)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "10" smd rect
+		(at 2.4622 3.175)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "9" smd rect
+		(at 2.4622 4.445)
+		(size 1.9732 0.608)
+		(layers "F.Cu")
+	)
+	(pad "" smd rect
+		(at -2.4622 -4.445)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 -3.175)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 -1.905)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 -0.635)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 0.635)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 1.905)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 3.175)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 4.445)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 -4.445)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 -3.175)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 -1.905)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 -0.635)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 0.635)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 1.905)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 3.175)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at 2.4622 4.445)
+		(size 2.0732 0.708)
+		(layers "F.Mask")
+	)
+	(pad "" smd rect
+		(at -2.4622 -4.445)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 -3.175)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 -1.905)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 -0.635)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 0.635)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 1.905)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 3.175)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at -2.4622 4.445)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 -4.445)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 -3.175)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 -1.905)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 -0.635)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 0.635)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 1.905)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 3.175)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(pad "" smd rect
+		(at 2.4622 4.445)
+		(size 1.9732 0.608)
+		(layers "F.Paste")
+	)
+	(model "${OCPM_3DMODEL_DIR}/unverified/unverified.3dshapes/ADS1131ID_PCB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(property "IPN" "P-00088"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest" "footprint-sources/ADS1131ID_PCB.json"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source_Manifest_Hash" "648e1ad9bfc1c1ae85f339924015eba13a563db85f18091c916b2faac876aa5a"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FP_Hash" "8a9213e2d1956fbd"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

@@ -4294,4 +4294,496 @@
 			)
 		)
 	)
+	(symbol "ADS1131ID"
+		(pin_names
+			(offset 0.508)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Part Origin" "In-house representative package model, not manufacturer CAD. source-constrained-gullwing-v1 selection v2. Constructed representative dimensions, NOT exact manufacturer values (mm except toe angle in degrees): {\"body_height\": 1.5748, \"body_standoff\": 0.1778, \"body_x\": 3.9878, \"body_y\": 10.0076, \"gauge_plane_height\": 0.254, \"lead_length_at_gauge_plane\": 0.8382000000000001, \"lead_tip_span\": 5.994400000000001, \"lead_toe_angle\": 0, \"lead_toe_thickness\": 0.1905, \"lead_width\": 0.4064, \"total_height\": 1.7526}. Derived dimensions/approximations: {\"body_height\": {\"disclosure\": \"Representative constructed dimension derived from selected inputs; not a separately published exact value. Published limits on this dimension remain enforced.\", \"expression\": \"total_height - body_standoff\", \"input_qualifiers\": {\"body_standoff\": \"limit\", \"total_height\": \"limit\"}, \"inputs\": {\"body_standoff\": 0.1778, \"total_height\": 1.7526}}}. Source limits and reference dimensions: {\"body_height\": {\"maximum\": null, \"minimum\": null, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"body_standoff\": {\"maximum\": 0.254, \"minimum\": 0.1016, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"body_x\": {\"maximum\": 3.9878, \"minimum\": 3.81, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"body_y\": {\"maximum\": 10.0076, \"minimum\": 9.8044, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"gauge_plane_height\": {\"maximum\": null, \"minimum\": null, \"nominal\": 0.254, \"qualifier\": \"BSC\", \"unit\": \"mm\"}, \"lead_length_at_gauge_plane\": {\"maximum\": 1.27, \"minimum\": 0.4064, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"lead_tip_span\": {\"maximum\": 6.1976, \"minimum\": 5.7912, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"lead_toe_angle\": {\"maximum\": 8, \"minimum\": 0, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"deg\"}, \"lead_toe_thickness\": {\"maximum\": 0.254, \"minimum\": 0.127, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"lead_width\": {\"maximum\": 0.508, \"minimum\": 0.3048, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}, \"total_height\": {\"maximum\": 1.7526, \"minimum\": null, \"nominal\": null, \"qualifier\": \"limit\", \"unit\": \"mm\"}}. Source pages: [{\"sha256\": \"74c3216a952b4779bffedf6bc20396892aa23a49c63bd4fa6b089dc1a4732a28\", \"page\": 19}]. Dimension selection: {\"method\": \"legacy_representative_selection\"}. Sharp mitered bends, embedded lead roots, rectangular unchamfered mold and pin-1 marker are visual approximations; no exact bend radius, internal leadframe, mold detail or coplanarity distribution is claimed. Leads have uniform normal strip thickness and a flat toe. Molded-body height is derived from selected total height minus standoff because no separate body-height callout is published."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Reference" "U"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADS1131ID"
+			(at 0 15.239999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1131.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Manufacturer 1" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Manufacturer Part Number 1" "ADS1131ID"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Package" "SOIC-16 (D), 1.27 mm pitch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Supply Voltage" "3 V to 5.3 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Operating Temperature" "-40 °C to +85 °C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Type" "Analog-to-digital converter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Description" "18-bit analog-to-digital converter for bridge sensors, in a 16-pin SOIC package."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Footprint" "unverified:ADS1131ID_PCB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "IPN" "P-00088"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Library_Status" "Unverified"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "OCPM_Verified" "No"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "FP_Version" "0.1.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+	 hide)
+		)
+		(property "FP_Hash" "8a9213e2d1956fbd"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "16c3f4babb7fd070"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ADS1131ID_0_1"
+			(rectangle
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ADS1131ID_1_1"
+			(pin power_in line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "VREFP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "VREFN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "AINP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.539999999999999 0)
+				(length 2.54)
+				(name "AINN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "CAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.620000000000001 0)
+				(length 2.54)
+				(name "CAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "DRDY/DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SPEED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "PDWN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -2.539999999999999 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -7.620000000000001 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
