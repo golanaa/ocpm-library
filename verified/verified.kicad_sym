@@ -31751,4 +31751,389 @@
 			)
 		)
 	)
+	(symbol "TNPW04022K43BEED"
+		(in_bom yes)
+		(on_board yes)
+		(property "Value" "2.43 kΩ"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistor Technology" "thin film"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "0.13 W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating Conditions" "Rated at 70°C ambient; full power from -55°C to 70°C, then linear derating to zero at 175°C. The rated dissipation applies only if the permitted 175°C film temperature is not exceeded."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±25 ppm/°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage" "75 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C to 175°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage Conditions" "Continuous DC or AC RMS."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source Guidance" "General, power, and advanced operation are load-life/stability examples for the same resistor, not different variants. The headline 0.130 W P70 rating corresponds to advanced operation and requires suitable PCB thermal management. Source quote: The presented operation modes do not refer to different types of resistors, but actually show examples of different loads, that lead to different film temperatures and different achievable load-life stability (drift) of the resistance value. A suitable low thermal resistance of the circuit board assembly must be safeguarded in order to maintain the film temperature of the resistors within the specified limits. | The ambient power rating depends on assembled thermal resistance and applies only while the 175°C permitted film-temperature limit is respected. Source quote: When the resistor dissipates power, a temperature rise above the ambient temperature occurs, dependent on the thermal resistance of the assembled resistor together with the printed circuit board. The rated dissipation applies only if the permitted film temperature is not exceeded. | The separate terminal-temperature-controlled alternative for TNPW0402 is 0.33 W at a terminal-part temperature of 105°C; it does not replace the headline ambient P70 rating. Source quote: Rated dissipation, P 0.25 W 0.33 W 0.5 W 0.75 W 1 W 1.25 W at terminal part temperature, ϑt (3) 105 °C | This restriction applies to the separate terminal-temperature-controlled rating and requires customer-level thermal management and PCB design. Source quote: The specified maximum terminal part temperature must not be exceeded; compliance shall be ensured by appropriate thermal management and PCB design at the customer’s application level | For TNPW0402, 0.33 W at 105°C terminal-part temperature is a separately published terminal-controlled alternative, not the ambient P70 rating. Source quote: Rated dissipation, P 0.25 W 0.33 W 0.5 W 0.75 W 1 W 1.25 W at terminal part temperature, ϑt (3) 105 °C | Restriction applicable to the separate terminal-temperature rating. Source quote: The specified maximum terminal part temperature must not be exceeded; compliance shall be ensured by appropriate thermal management and PCB design at the customer’s application level | The 0.130 W ambient rating requires thermal management that keeps film temperature at or below 175°C. Source quote: When the resistor dissipates power, a temperature rise above the ambient temperature occurs, dependent on the thermal resistance of the assembled resistor together with the printed circuit board. The rated dissipation applies only if the permitted film temperature is not exceeded. | General, power, and advanced modes are load/stability examples for the same resistor; the headline 0.130 W rating corresponds to advanced operation and must not be mixed with another mode’s temperature limits. Source quote: The presented operation modes do not refer to different types of resistors, but actually show examples of different loads, that lead to different film temperatures and different achievable load-life stability (drift) of the resistance value. A suitable low thermal resistance of the circuit board assembly must be safeguarded in order to maintain the film temperature of the resistors within the specified limits."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reference" "R"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "verified:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES, 2.43 kΩ, 0402, ±0.1%, thin film, 130 mW, TCR ±25 ppm/°C, 75 V ceiling"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "TNPW04022K43BEED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN_Class" "Part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FP_Version" "0.1.1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FP_Hash" "cca674d32d743c69"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCPM_Verified" "Yes"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Library_Status" "Prototype"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rev_Creator" "Steve"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(pin_numbers
+			(hide yes)
+		)
+		(property "IPN" "P-00082"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Version" "0.1.0"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sym_Hash" "10cbc06184a8f0eb"
+			(at 0 0 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TNPW04022K43BEED_0_1"
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.286)
+					(xy 1.016 1.905)
+					(xy 0 1.524)
+					(xy -1.016 1.143)
+					(xy 0 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762)
+					(xy 1.016 0.381)
+					(xy 0 0)
+					(xy -1.016 -0.381)
+					(xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.762)
+					(xy 1.016 -1.143)
+					(xy 0 -1.524)
+					(xy -1.016 -1.905)
+					(xy 0 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TNPW04022K43BEED_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
